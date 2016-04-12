@@ -16,7 +16,6 @@ Read README.md and do the suggested exercise, when done:
 
 Rinse and repeat.
 
-# Outline
 ## What you'll learn
 * Increase your productivity by using shortcuts. We'll use IntelliJ on windows as an example.
 * Think along with your pair, who's already proficient in using shortcuts.
@@ -33,6 +32,47 @@ Eventhough the progression in these chapters might seem to be naturally increasi
 The only reason there are chapters is to help your brain make paths even better by trying to categorize certain types of shortcuts so you'll think of them sooner in real life.
 
 ## Good Luck, Have Fun!
-If you like these exercises, share \'em with your friends and colleagues.
+If you like these exercises, share 'em with your friends and colleagues.
 
 GLHF!
+
+# Outline
+
+## Chapter 1 - Basics
+* crl+c, ctrl+v
+* Keep your hands on your keyboard
+* How to look up any actions' shortcut
+* IntelliJ's _Productivity Guide_
+
+## Chapter 2 - Navigation
+* Word-skipping `ctrl+arrows`
+* Begin/End of Line `home`, `end`
+* CamelHumps (+ how to toggle)
+* Jumping methods (`alt+up,down`)
+
+## Chapter 3 - Selection
+* Move + Select `ctrl+shift+arrows`
+* Expand Selection `ctrl+w`
+* Using Selection to help Navigation
+* Wrapping (IntelliJ feature)
+
+## Chapter 4 - Line Editing
+* Yank `ctrl+y`
+* Delete line `ctrl+d`
+* Moving lines with and without constraints `ctrl+shift+up,down` vs. `alt+shift+up,down`
+* Start new line `ctrl+shift+enter`
+* Join lines `ctrl+shift+j`
+
+## Chapter 4 - Embedded Windows
+* Opening/Closing (Toggling) `alt+number`
+* Switching tabs `alt+left,right`
+* Why resizing is for dummies
+*
+
+## Chapter 5 - Finding/Buffer
+* `ctrl+F3`
+* `F3`
+
+## Chapter 6 - Multiple Cursors
+`alt+shift+j` and `ctrl+alt+shift+j`
+We'll see different cases.
