@@ -63,16 +63,16 @@ GLHF!
 * Start new line `ctrl+shift+enter`
 * Join lines `ctrl+shift+j`
 
-## Chapter 4 - Embedded Windows
+## Chapter 5 - Embedded Windows
 * Opening/Closing (Toggling) `alt+number`
 * Switching tabs `alt+left,right`
 * Why resizing is for dummies
 *
 
-## Chapter 5 - Finding/Buffer
+## Chapter 6 - Finding/Buffer
 * `ctrl+F3`
 * `F3`
 
-## Chapter 6 - Multiple Cursors
+## Chapter 7 - Multiple Cursors
 `alt+shift+j` and `ctrl+alt+shift+j`
 We'll see different cases.
