@@ -86,6 +86,7 @@ GLHF!
 * Find next occurrence from buffer `F3`
 
 ## Chapter 8 - Multiple Cursors
+* Toggle Column Mode `alt+shift+ins`
 * `alt+j` and `ctrl+alt+shift+j`
 
 We'll see a lot of different cases, such as but not limited to:
