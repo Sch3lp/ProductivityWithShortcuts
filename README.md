@@ -57,7 +57,7 @@ GLHF!
 ## Chapter 3 - Selection
 * Move + Select `ctrl+shift+arrows`
 * Expand Selection `ctrl+w`
-* Using Selection to help Navigation
+* Using Selection to help Navigation (e.g. _Fluent API_)
 * Wrapping (IntelliJ feature)
 
 ## Chapter 4 - Line Editing
