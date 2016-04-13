@@ -80,6 +80,8 @@ GLHF!
 * _QuickFix_ (:bulb:) `alt+enter`
 * Creating _stuff_ `alt+ins`
 * Deleting _stuff_ `alt+del`
+* View JavaDoc `ctrl+q`
+* View parameters `ctrl+p`
 
 ## Chapter 7 - Finding/Buffer
 * Find word and add to buffer `ctrl+F3`
