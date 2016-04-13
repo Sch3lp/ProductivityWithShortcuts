@@ -51,9 +51,11 @@ GLHF!
 * CamelHumps (+ how to toggle)
 * Jumping methods (`alt+up,down`)
 * Jump to error `F2`
+* Jump to line `ctrl+g`
 * Jump to last edit position `ctrl+shift+backspace`
-* Jump into `ctrl(+alt)+b`
+* Jump into/Drill Down/Show Usage `ctrl(+alt)+b`
 * History and its importance `ctrl+alt+left,right`
+* Show in Project `alt+F1`
 
 ## Chapter 3 - Selection
 * Move + Select `ctrl+shift+arrows`
