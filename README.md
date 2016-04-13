@@ -78,5 +78,8 @@ GLHF!
 * `F3`
 
 ## Chapter 7 - Multiple Cursors
-`alt+shift+j` and `ctrl+alt+shift+j`
-We'll see different cases.
+* `alt+shift+j` and `ctrl+alt+shift+j`
+We'll see a lot of different cases, such as but not limited to:
+* TestBuilders
+* Extracting from XML
+* Making csv lists
