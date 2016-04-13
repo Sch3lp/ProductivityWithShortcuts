@@ -74,8 +74,8 @@ GLHF!
 *
 
 ## Chapter 6 - Finding/Buffer
-* `ctrl+F3`
-* `F3`
+* Find word and add to buffer `ctrl+F3`
+* Find next occurrence from buffer `F3`
 
 ## Chapter 7 - Multiple Cursors
 * `alt+shift+j` and `ctrl+alt+shift+j`
