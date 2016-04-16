@@ -17,6 +17,9 @@ Repeat Exercise 1, but instead of ctrl+c and ctrl+v, use ctrl+shift+a to look up
 Open IntelliJ's Productivity Guide using these key combinations:
 First press `alt+h` for _(H)elp_ (in the taskbar), then press `p` to select _(P)roductivity Guide_.
 
+## Bonus
+Try opening the Productivity Guide using `ctrl+shift+a`.
+
 ## Indenting, formatting with `tab`, `shift+tab`
 Open Fugly.java, use selection and indent the test builder patterns properly.
 
@@ -32,5 +35,30 @@ In most editors, Redo is mapped to `ctrl+y`. Not in IntelliJ. This can lead to h
 
 Let's try it out and see what happens so you'll remember it better.
 
-## Bonus
-Try opening the Productivity Guide using `ctrl+shift+a`.
+Open FuglyToo.java once more.
+
+Add a comment above the method that reads `// this method is fugly`.
+
+Add a comment on a new line that reads `// such fugliness should never be allowed`.
+
+Press `ctrl+z` (_Undo_) and see what happens.
+
+Press it a couple times.
+
+Now press `ctrl+shift+z` (_Redo_) and see what happens.
+
+Add three comments each on a different line:
+```
+// herpty
+// derpty
+// derp
+```
+After you've typed the last line, press `ctrl+z` until you only have `// herpty` left.
+
+As most people will have the reflex to press `ctrl+y` to _Redo_ their work, let's see what happens when we do just that.
+
+So try `ctrl+y`, then try `ctrl+shift+z` like you meant to do.
+
+Try `ctrl+z` and see what that does. Try `ctrl+shift+z` again now.
+
+Keep this in mind when you work in IntelliJ, or in another editor that doesn't have `ctrl+y` for _Redo_ :)
