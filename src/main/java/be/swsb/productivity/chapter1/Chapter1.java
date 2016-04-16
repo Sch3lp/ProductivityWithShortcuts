@@ -1,4 +1,4 @@
-package be.swsb.productivity;
+package be.swsb.productivity.chapter1;
 
 public class Chapter1 {
 
