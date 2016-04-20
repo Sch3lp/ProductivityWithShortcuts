@@ -25,10 +25,4 @@ public class Fugly {
                 .toString());
     }
 
-    public static void wrapStuff()
-        fugly()
-                .withEff(efffff)
-                .withYew "yewwww"
-                .build();
-
 }
