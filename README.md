@@ -39,4 +39,4 @@ Then apply the same pattern to `yewwww` but instead of a `"`, type a `(`.
 
 Then apply the same pattern to the entire method body but type a `{`.
 
-This feature can really shine in combination with multi-cursor (which we'll see in a later chapter).
+This feature really shines in combination with multi-cursor (which we'll see in a later chapter).
