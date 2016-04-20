@@ -19,4 +19,17 @@ public class Chapter4 {
 
     private void _3_cheetara() {
     }
+
+    private String[] _4_thundercats() {
+        return new String[]{
+                "lion-o",
+                "jaga",
+                "panthro",
+                "tygra",
+                "cheetara",
+                "snarf",
+                "wily kit",
+                "wily kat"
+        };
+    }
 }

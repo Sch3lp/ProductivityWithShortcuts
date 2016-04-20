@@ -22,3 +22,10 @@ Typically, one would do this by pressing `end`, and then `enter`. But you can do
 It'll come in handy later.
 
 ##Join lines `ctrl+shift+j`
+We want to write the return statement of `_4_thundercats()` on just one line.
+
+Don't do `end`, `delete`, `end`, `delete`, ...
+
+Instead, first select all of the thundercats names (the strings), then press `ctrl+shift+j` (for Join lines). Hint: `ctrl+w` right after the `{`.
+
+You might have to repeat the `ctrl+shift+j` combination, because IntelliJ's auto-formatting kicks in sometimes.
