@@ -16,4 +16,7 @@ public class Chapter4 {
     private void _1_lionO() {
         System.out.println("Snarf");
     }
+
+    private void _3_cheetara() {
+    }
 }
