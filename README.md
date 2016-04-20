@@ -4,15 +4,15 @@ Code with exercises to learn shortcuts and their associated thinking patterns
 # How to use this repo
 `git clone ...`
 
-`git checkout -b chapter-1`
+`git checkout chapter-1`
 
 Read README.md and do the suggested exercise, when done:
 
-`git checkout -b chapter-2`
+`git checkout chapter-2`
 
 Read README.md and do the suggested exercise, when done:
 
-`git checkout -b ...`
+`git checkout ...`
 
 Rinse and repeat.
 
