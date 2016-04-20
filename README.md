@@ -58,11 +58,34 @@ Notice how the cursor now first jumps to the actual compilation error (`privet` 
 
 Cycling also happens only over all the actual _errors_, and _unused warnings_ are not cycled anymore.
 
-## Jump to last edit position `ctrl+shift+backspace`
-
 ## Jump into `ctrl(+alt)+b`
+Jump into, or "drill down" as I like to call it, allows you to follow the path that code execution makes at runtime.
+
+Right now, there's a typo in both the `EpicJumper.java` and `MehJumper.java` classes. Let's fix that.
+
+Go to Chapter2.jumpUsingStrategy() and place your cursor on the jump() method call. Press `ctrl+b`, this should bring you to the interfaces `jump()` method.
+
+Now go back to where you came from, and press `ctrl+alt+b`. IntelliJ knows you want to "drill down" into the actual method implementation but doesn't know which one, so it will suggest two options. Pick the `MehJumper` by pressing `down` and then `enter` and see where it leads you.
+
+Then correct the typo and move on to the next exercise.
 
 ## History and its importance `ctrl+alt+left,right`
+In the previous exercise we drilled down into a method call and changed stuff, but sometimes you want to trace back your steps.
+
+Repeat the previous exercise, or if you're still at the last position of the previous exercise you can continu on from there.
+
+Press `ctrl+alt+left` to go back where you came from. This should have brought you back to the `Chapter2.java` class.
+
+Now repeat the previous exercise, but pick the `EpicJumper` and also fix the typo. Then go back again using `ctrl+alt+left`.
+
+Also try backtracking your backtrack by pressing `ctlr+alt+right`.
+
+**Please note**: every time you use Navigation shortcuts that bring you to new classes, IntelliJ will remember this in a sort of Navigation History.
+
+## Jump to last edit position `ctrl+shift+backspace`
+From the end of previous exercise, make sure you're back in the `Chapter2.java` class and press `ctrl+shift+backspace` to go back to where you were last editing.
+
+Try pressing it again and see what happens.
 
 ## Show in Project `alt+F1`
 
