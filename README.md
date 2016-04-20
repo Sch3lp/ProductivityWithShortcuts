@@ -1,103 +1,42 @@
-# Chapter 2 - Navigation
+# Chapter 3 - Selection
+## Move + Select `ctrl+shift+arrows`
+Open `Chapter3.java`, then move your cursor to the beginning of `"jumps over"`, hold down `ctrl` and `shift` and press the `right` arrow to select that sentence and cut and paste it behind the first line.
 
-## Word-skipping `ctrl+arrows`
-Open Chapter2.java, place your cursor in front of the `The` of the popular phrase, and tap `ctrl+right` 8 times.
+## Expand Selection `ctrl+w`
+Press `ctrl+n` and open `Fugly.java`.
 
-You should now have your cursor at the beginning of the word `camel`.
+Move your cursor to line 23, column 28 by pressing `ctrl+g` and typing `23:28`.
 
-## Begin/End of Line `home`, `end`
-Still in Chapter2.java, place your cursor at the start of the popular phrase, and do `end`.
-Press `home` once, look at your position, then press `home` again and see what happens.
-Press `home` one more time and again look at what happens.
+From that position press `ctrl+w`, keep pressing it again, and see what happens.
 
-If you wanna see a stroboscope effect, put your cursor at the beginning of the word `return`, hold down `shift+home`. ;)
+What happens if you keep on pressing it?
 
-## Begin/End of File `ctrl+home`, `ctrl+end`
-Try out `ctrl+home` and `ctrl+end` in Chapter2.java.
+Try using `ctrl+shift+w` and see what that does.
 
-## CamelHumps (+ how to toggle)
-In Chapter2.java, put your cursor at the beginning of the method `theQuickBrownFoxJumpedOverTheLazyCamel`.
+What happens if you keep on pressing that combination?
 
-Try to use _Skip Word_ with `ctrl+right` on that method.
+## Using Selection to help Navigation (e.g. Fluent API)
+Because `ctrl+w` expands a selection,
 
-Depending on your CamelHumps setting, your cursor either ended up on the `Q` or it skipped the entire method name and you ended up on the `(`.
+and because the arrow keys decide where our cursor is going to be: `left` at the beginning or `right` at the end of the selection.
 
-Return to the beginning of the method name and press `ctrl+shift+a`, then type `CamelHump`. There should be a setting `Smart Keys: Use "CamelHumps" words` with a toggle button.
+We can use a little trick to format our Fluent API.
 
-Navigate to that option and select it by pressing `Enter`, then press `Escape` to cancel out of the action menu.
+Format the one-liner so that it looks like the method below. You can do this by pressing `ctrl+w` until you have a selection containing a "method call", e.g. `fugly()`, then press `right` to put your cursor at the end, and press `enter`.
 
-Try to use _Skip Word_ again with `ctrl+right`.
+Rinse and repeat.
 
-Other tools, like SublimeText, have different key combination to skip the entire word (`ctrl+right`), or skip based on CamelCasing (`alt+right`).
+## Wrapping (IntelliJ feature)
+IntelliJ has a neat feature that wraps your selection with braces, curly braces, single or double quotes, ...
 
-## Jumping methods (`alt+up,down`)
-Put your cursor at the `theQuickBrownFoxJumpedOverTheLazyCamel` method.
+You can enable this feature under `Settings` by pressing (`ctr+alt+s`), then go to `Editor > General > Smart Keys`, and enable `Surround selection on typing quote or brace`.
 
-Keep pressing `alt+down` and see what happens.
+An alternative is by pressing `ctrl+shift+a`, and then type `Smart Keys Braces`.
 
-Keep pressing `alt+up` and see what happens.
+Fix the `wrapStuff` method by selecting `"efffff"` with `ctrl+w`, and then type a `"`.
 
-## Jump to "error" `F2`
-Move to the top of the file with `ctrl+Home` and from there press `F2`.
+Then apply the same pattern to `yewwww` but instead of a `"`, type a `(`.
 
-This should navigate your cursor to the class name `Chapter2` because IntelliJ marks it as _unused_.
+Then apply the same pattern to the entire method body but type a `{`.
 
-If you keep pressing `F2` it should keep cycling your cursor over the _unused warnings_.
-
-In between the methods `jump()` and `camel()`, paste the following:
-
-```
-privet String kakdilla() {
-    "horocho";
-}
-```
-
-Move to the top of the file again, and press `F2` once again.
-
-Notice how the cursor now first jumps to the actual compilation error (`privet` cannot be resolved).
-
-Cycling also happens only over all the actual _errors_, and _unused warnings_ are not cycled anymore.
-
-## Jump into `ctrl(+alt)+b`
-Jump into, or "drill down" as I like to call it, allows you to follow the path that code execution makes at runtime.
-
-Right now, there's a typo in both the `EpicJumper.java` and `MehJumper.java` classes. Let's fix that.
-
-Go to Chapter2.jumpUsingStrategy() and place your cursor on the jump() method call. Press `ctrl+b`, this should bring you to the interfaces `jump()` method.
-
-Now go back to where you came from, and press `ctrl+alt+b`. IntelliJ knows you want to "drill down" into the actual method implementation but doesn't know which one, so it will suggest two options. Pick the `MehJumper` by pressing `down` and then `enter` and see where it leads you.
-
-Then correct the typo and move on to the next exercise.
-
-## History and its importance `ctrl+alt+left,right`
-In the previous exercise we drilled down into a method call and changed stuff, but sometimes you want to trace back your steps.
-
-Repeat the previous exercise, or if you're still at the last position of the previous exercise you can continu on from there.
-
-Press `ctrl+alt+left` to go back where you came from. This should have brought you back to the `Chapter2.java` class.
-
-Now repeat the previous exercise, but pick the `EpicJumper` and also fix the typo. Then go back again using `ctrl+alt+left`.
-
-Also try backtracking your backtrack by pressing `ctlr+alt+right`.
-
-**Please note**: every time you use Navigation shortcuts that bring you to new classes, IntelliJ will remember this in a sort of Navigation History.
-
-## Jump to last edit position `ctrl+shift+backspace`
-From the end of previous exercise, make sure you're back in the `Chapter2.java` class and press `ctrl+shift+backspace` to go back to where you were last editing.
-
-Try pressing it again and see what happens.
-
-## Show in Project `alt+F1`
-Open `MehJumper` by pressing `ctrl+n`, then press `alt+F1`. It should open up the `Project` sidebar with MehJumper selected.
-
-Press `alt+1` (**not F1**) to minimize the sidebar and get focus back to your editor.
-
-## `alt+F7` vs. `ctrl+alt+h` vs. `ctrl+b`
-// TODO
-
-## Jump to line `ctrl+g` (example with paste from stacktrace)
-// TODO
-
-## Navigate to method `ctrl+F12` (example with paste from stacktrace and quick check equals impl)
-// TODO
-
+This feature can really shine in combination with multi-cursor (which we'll see in a later chapter).
