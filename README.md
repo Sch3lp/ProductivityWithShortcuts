@@ -88,9 +88,16 @@ From the end of previous exercise, make sure you're back in the `Chapter2.java` 
 Try pressing it again and see what happens.
 
 ## Show in Project `alt+F1`
+Open `MehJumper` by pressing `ctrl+n`, then press `alt+F1`. It should open up the `Project` sidebar with MehJumper selected.
+
+Press `alt+1` (**not F1**) to minimize the sidebar and get focus back to your editor.
+
+## `alt+F7` vs. `ctrl+alt+h` vs. `ctrl+b`
+// TODO
 
 ## Jump to line `ctrl+g` (example with paste from stacktrace)
+// TODO
 
 ## Navigate to method `ctrl+F12` (example with paste from stacktrace and quick check equals impl)
+// TODO
 
-## `alt+F7` vs. `ctrl+alt+h`
