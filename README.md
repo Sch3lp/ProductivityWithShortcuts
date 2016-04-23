@@ -39,14 +39,18 @@ After you used `ctrl+shift+space` or `ctrl+space`, confirming your selection can
 * Pressing `.` completes the code and suffixes a `.` so you can continu typing
 * Pressing `space` does the same but suffixes with a `space`. (this is different from regular suggestion after typing a `.`!)
 
+Right now `Optimus` has a `.catchphrase` method that takes a prefix. Since it's always _\<prefix\> Rollout!_ we can rename that method to `rollout`.
+
+Let's _navigate_ to the `.catchphrase` method with `ctrl+alt+b`. Then simply delete `catchphrase` and replace it with `rollout` (don't use `shift+F6`).
+
+Then go back to the `Transformers` class with `ctrl+alt+left`, and autocomplete to use the new `rollout` method instead of the previous, non-compiling `catchPhrase` method. First try using `Enter` as your selection confirmation, see what happens. Then undo with `ctrl+z`, retry autocompletion and use `Tab` as your selection confirmation.
+
+Rinse and repeat with the other ways listed above.
+
 ## _QuickFix_ (:bulb:) `alt+enter`
 _QuickFix_ is magical. It's your go to shortcut for almost everything. Creating a new constructor? `alt+enter`. Extracting a method out of selected code? `alt+enter`. Extracting a variable? `alt+enter`. Code not compiling? `alt+enter`. Cure cancer? `alt+enter`. The list goes on and on.
 
 So really, if there's one shortcut you should remember it's this one.
-
-Let's try it out on some stuff.
-
-
 
 ## Creating _stuff_ `alt+ins`
 
