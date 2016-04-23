@@ -19,8 +19,24 @@ It's basically the same thing we tried to auto-correct just a few seconds ago. T
 Try pressing `ctrl+shift+enter` anyways and see what happens.
 
 ## Autocomplete `ctrl+space` vs. `ctrl+shift+space`
+Open `Transformers.java`. Try to autocomplete the constructor of our old friend `optimus`. (Hint: `F2` to quickly navigate to the missing constructor argument)
+
+First try pressing `ctrl+space` to have IntelliJ give you an autocomplete suggestion. You'll notice that eventhough the constructor only expects an `AutobotEnum`, IntelliJ still suggest a bunch of other stuff like `new`, `null`, `equals()`, etc.
+
+`Escape` out of the suggestion window and let's try the alternative `ctrl+shift+space`. This makes IntelliJ way more helpful.
+
+Before selecting one of the `AutobotEnum` suggestions, try pressing `ctrl+shift+space` again.
+
+That's right, there's a static method `Autobot.optimusEnum()` that also returns an `AutobotEnum`, IntelliJ knows about this method as well.
+
+Try it out again to construct `Optimus`' nemesis, `Galvatron`.
 
 ## _QuickFix_ (:bulb:) `alt+enter`
+_QuickFix_ is magical. It's your go to shortcut for almost everything. Creating a new constructor? `alt+enter`. Extracting a method out of selected code? `alt+enter`. Extracting a variable? `alt+enter`. Code not compiling? `alt+enter`. Cure cancer? `alt+enter`. The list goes on and on.
+
+So really, if there's one shortcut you should remember it's this one.
+
+Let's try it out on some stuff.
 
 ## Creating _stuff_ `alt+ins`
 
