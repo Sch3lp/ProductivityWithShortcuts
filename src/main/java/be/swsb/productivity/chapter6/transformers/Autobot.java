@@ -11,4 +11,8 @@ public class Autobot {
     public static AutobotEnum optimusEnum(){
         return AutobotEnum.CAR;
     }
+
+    public String catchPhrase(String prefix) {
+        return String.format("%s Rollout!", prefix);
+    }
 }

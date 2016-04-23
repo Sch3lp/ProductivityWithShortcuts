@@ -31,12 +31,22 @@ That's right, there's a static method `Autobot.optimusEnum()` that also returns 
 
 Try it out again to construct `Optimus`' nemesis, `Galvatron`.
 
+### Autocomplete selection confirmation
+After you used `ctrl+shift+space` or `ctrl+space`, confirming your selection can be done in multiple ways.
+
+* Pressing `Enter` straight up completes the code.
+* Pressing `Tab` replaces code that was there before.
+* Pressing `.` completes the code and suffixes a `.` so you can continu typing
+* Pressing `space` does the same but suffixes with a `space`. (this is different from regular suggestion after typing a `.`!)
+
 ## _QuickFix_ (:bulb:) `alt+enter`
 _QuickFix_ is magical. It's your go to shortcut for almost everything. Creating a new constructor? `alt+enter`. Extracting a method out of selected code? `alt+enter`. Extracting a variable? `alt+enter`. Code not compiling? `alt+enter`. Cure cancer? `alt+enter`. The list goes on and on.
 
 So really, if there's one shortcut you should remember it's this one.
 
 Let's try it out on some stuff.
+
+
 
 ## Creating _stuff_ `alt+ins`
 
