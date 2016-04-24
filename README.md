@@ -100,11 +100,11 @@ GLHF!
 We'll see a lot of different cases, such as but not limited to:
 * TestBuilders
 * Testing Enum lists
-* Extracting from XML
-* Making csv lists
+* Making a csv list from XML
 
 ## Chapter 9 - Endgame
 We'll make a full exercise where you'll:
+
 1. Create a new class that has to interact with another existing class
 2. Create a new test for that class
 3. Create a new TestBuilder for the existing class
