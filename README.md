@@ -95,5 +95,6 @@ In `Transformers.java`, let's try to create the _StarScream Decepticon_.
 
 First uncomment the `// Decepticon.StarScream()` line.
 
-Then put your cursor in between the brackets and type `ctrl+p`. Notice how IntelliJ signals which parameter you're required to fill in by **emboldening** the parameter name.
+Then put your cursor in between the brackets and type `ctrl+p`.
 
+Notice how IntelliJ signals which parameter you're required to fill in by **emboldening** the parameter name.
