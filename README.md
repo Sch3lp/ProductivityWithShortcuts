@@ -89,7 +89,44 @@ Undo `ctrl+z` your corrections and try it out.
 Notice how `alt+shift+j` still deselects the last occurrence. This is because `ctrl+alt+shift+j` is merely a repeated `alt+j`.
 
 ##Various use cases
+Now that we've seen the basics of multiple cursors, let's try to apply it to some day to day tasks and see how it can make your life so much easier.
+
 ### Creating a TestBuilder
+Let's pretend we've got a _Transfer Object_ `PersonTO` that represents a person in our domain. We want to create a TestBuilder for this class to easily configure in our Unit Tests.
+
+TestBuilders also typically reside under the same package as the class you want to build, but in the _test_ folder structure.
+
+In IntelliJ, you can create a Unit Test for a class by pressing `ctrl+shift+t` from the class you're in.
+
+Let's use this to our advantage for creating a TestBuilder, so open `PersonTO` with `ctrl+n`, and press `ctrl+shift+t`.
+
+Overwrite the class name from `PersonTOTest` to `PersonTOTestBuilder` and press `Enter`.
+
+Go back `ctrl+alt+left` to the `PersonTO`, and copy all privates over to the TestBuilder.
+
+Create an empty constructor for the TestBuilder with `alt+insert`. Press `up` and `ctrl+enter` to choose an empty constructor from the generation menu.
+
+Create a `build` method that returns a `PersonTO`.
+
+Then, still inside the `PersonTOTestBuilder`, generate setters for all the privates you just copied from `PersonTO`:
+
+Press `alt+insert`, select `Setters`, press `shift+end` to select all the fields, and press `ctrl+Enter`.
+
+`Enter` would also work, but it's better to `ctrl+Enter` when in a separate window, to press the highlighted button, and perform the _Default action_. And add this to muscle memory.
+
+Now we've got a bunch of setters... That's great, but we want configurable methods on our builder instead.
+
+Select `void set` of the first setter, and press `ctrl+alt+shift+j`.
+
+Type `PersonTOTestBuilder` (because we want a _Fluent API_).
+
+Now we've got some options with our method names. You either want all your configurable methods to have the `with` keyword, or you want them lowercased.
+
+You can lowercase all your methods by selecting the first letter: from your multicursors position press `shift+right`. Then press `ctrl+shift+u` to toggle lower or upper case.
+
+Now the only thing we need to do is return `this`. So press `down`, then press `shift+enter` (instead of `end`,`enter`), and type `return this;`
+
+There you go, TestBuilder in under a minute.
 
 ### Testing Enum lists
 
