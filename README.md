@@ -50,6 +50,43 @@ This is a great feature for when all the lines you want to edit are right undern
 Let's see how we can solve that issue as well.
 
 ## `alt+j`, `alt+shift+j` and `ctrl+alt+shift+j`
+In `Chapter8` there are two methods that need some fixing. They both tried to use a `StringBuilder` but seemed to have forgotten that you need the `append()` method.
+
+We can't use _Column Mode_ because the same mistake is repeated in a different method and there are lines in between that we don't want to put a cursor at.
+
+We can, however, use `alt+j` to add a cursor to a _Find buffer_ (`F3` and `ctrl+F3`).
+
+Try to think for a moment what selection you'd want to _Find_ in that class.
+
+Let's first try to see what would be included by `ctrl+F3`'ing on the following selections: `"`, `.`, `."`.
+
+Spoiler:
+
+`"` won't be good, because then we'd also end up with a cursor at the end of the string.
+
+`.` won't be good either, because we don't want to include the `.toString()`.
+
+`."` however is a near perfect fit.
+
+So let's select the first `."` at `21:17` and press `alt+j` once and see what happens.
+
+Now repeat `alt+j` until you've selected all of the occurrences.
+
+You'll notice that the last occurrence is working code, and we didn't want that last one. So press `alt+shift+j` to undo that last `add to cursor` selection.
+
+Then let's fix the code by typing `append` after the `.`. Don't exit out of your multi-cursor just yet.
+
+Remember how in Chapter 3 we learned about IntelliJ's _Wrapping_ feature? And how I said it was gonna shine in this chapter?
+
+If you haven't already, enable Wrapping with `ctrl+shift+a`, `smart braces`, `enter`.
+
+From the multi-cursors positioned after the `append` you just typed, press `shift+end` to select all the strings, and then press `(`.
+
+As an alternative to repeatedly pressing `alt+j`, and if you're 100% sure that you won't include too much, you can also press `ctrl+alt+shift+j` and add **all** occurrences to your cursors in one go.
+
+Undo `ctrl+z` your corrections and try it out.
+
+Notice how `alt+shift+j` still deselects the last occurrence. This is because `ctrl+alt+shift+j` is merely a repeated `alt+j`.
 
 ##Various use cases
 ### Creating a TestBuilder
