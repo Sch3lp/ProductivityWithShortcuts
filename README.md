@@ -102,6 +102,8 @@ Let's use this to our advantage for creating a TestBuilder, so open `PersonTO` w
 
 Overwrite the class name from `PersonTOTest` to `PersonTOTestBuilder` and press `Enter`.
 
+You might want to get rid of unnecessary `org.junit.Assert.*` imports by pressing `ctrl+alt+o` to _Organize Imports_.
+
 Go back `ctrl+alt+left` to the `PersonTO`, and copy all privates over to the TestBuilder.
 
 Create an empty constructor for the TestBuilder with `alt+insert`. Press `up` and `ctrl+enter` to choose an empty constructor from the generation menu.
@@ -128,8 +130,28 @@ Now the only thing we need to do is return `this`. So press `down`, then press `
 
 There you go, TestBuilder in under a minute.
 
-### Testing Enum lists
+### Testing Enum Lists
+We've got a made up `Status` enum containing a bunch of statuses that contain another made up `SubStatus`.
 
-### Extracting from XML
+In its Unit Test `StatusTest` we want to test that the static methods return the correct `Statuses` based on their `SubStatus`.
 
-### Making csv lists
+The implementation is already there, we just need a good list summation in our `.containsOnly` of the `NOT_REALLY` test.
+
+Let's try using multicursors to get a list we can use.
+
+Open `Status`, use `alt+j` on `NOT_REALLY` until you've got cursors on all the enums with that status.
+
+Then try to select the Statuses themselves. Hint: You might have to disable `CamelHumps` with `ctrl+shift+a` to help with the selection.
+
+Copy `ctrl+c` these.
+
+Now navigate back to `StatusTest` and before you paste, enable _Column Mode_, make sure there's a bunch of empty lines and paste.
+
+_Column Mode_ allows your multiple cursors to remain after pasting.
+
+So with our multicursors still there, put a `,` behind every copied enum, and press `ctrl+shift+j` to join all the lines.
+
+Complete the `yaReallyStatuses_ContainOnlyDoneAndDunno` test on your own. Hint: `alt+insert` is context sensitive, meaning IntelliJ will know what you want because you're in a Unit Test.
+
+### Making csv lists from XML
+// TODO
