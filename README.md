@@ -73,7 +73,7 @@ Try out these things using `alt+insert`:
 * Create a new constructor in that class from the editor.
 
 ## Deleting _stuff_ `alt+delete`
-Let's delete all the stuff we created in the previous step.
+Let's delete all the stuff we created in the previous step using `alt+delete`.
 * Delete the constructor you just created
 * Delete the class you just created (the package will probably be deleted automatically because it was the only class in there)
 
