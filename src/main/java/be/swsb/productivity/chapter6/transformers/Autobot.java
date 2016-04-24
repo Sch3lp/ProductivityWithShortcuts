@@ -1,5 +1,12 @@
 package be.swsb.productivity.chapter6.transformers;
 
+/**
+ * Transformers... <br/>
+ * Robots in disguise.<br/>
+ * <br/>
+ * Transformers... <br/>
+ * More than meets the eye.<br/>
+ */
 public class Autobot {
 
     private AutobotEnum type;
