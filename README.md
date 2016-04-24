@@ -93,7 +93,36 @@ Open `MehJumper` by pressing `ctrl+n`, then press `alt+F1`. It should open up th
 Press `alt+1` (**not F1**) to minimize the sidebar and get focus back to your editor.
 
 ## `alt+F7` vs. `ctrl+alt+h` vs. `ctrl+b`
-// TODO
+Checkout the `mud` package. It's got your typical layered application where we pass around a `Ball` through all of the layers.
+
+Let's see what the different shortcuts mentioned in the title actually do.
+
+### `alt+F7`
+This shows the usage of anything, be it a class, a method or a field in a separate _Tool Window_.
+
+Open (`ctrl+n`) `Ball.java`, navigate to `getId()` and press `alt+F7`.
+
+### `ctrl+alt+h`
+This shows the call hierarchy of how code got to the place you're starting from.
+
+Repeat the previous exercise, but instead press `ctrl+alt+h`.
+
+Navigate the tree with the arrow keys, and select with `ctrl+enter` (or `F4` if you directly want to navigate to the code).
+
+Pro-tip: move this _Tool Window_ to the bottom bar (next to `3: Find`), because you'll usually want horizontal space instead of vertical.
+
+### `ctrl+b`
+This will show the usage in a popup window (`Escape`able).
+
+Particularly handy to show read or write usage on a field.
+
+Navigate to the `return id;` and put your cursor on `id`.
+
+Press `ctrl+b` once, this should navigate to the field itself.
+
+Press `ctrl+b` again, now it should show a popup asking if you want to show accessors of the field. Let's go with _Yes_. :)
+
+
 
 ## Jump to line `ctrl+g` (example with paste from stacktrace)
 // TODO
