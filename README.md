@@ -122,10 +122,42 @@ Press `ctrl+b` once, this should navigate to the field itself.
 
 Press `ctrl+b` again, now it should show a popup asking if you want to show accessors of the field. Let's go with _Yes_. :)
 
-
-
 ## Jump to line `ctrl+g` (example with paste from stacktrace)
-// TODO
+Here's a strip of a stacktrace.
+
+    java.lang.NullPointerException
+   	  at be.swsb.productivity.chapter2.mud.service.BallServiceImpl.findBall(BallServiceImpl.java:18)
+   	  at be.swsb.productivity.chapter2.mud.ui.BallScreen.render(BallScreen.java:15)
+   	  at be.swsb.productivity.chapter2.mud.ui.BallScreenTest.screenCallsStuff(BallScreenTest.java:11)
+   	  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+   	  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+   	  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+   	  at java.lang.reflect.Method.invoke(Method.java:497)
+   	  at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+   	  at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+   	  at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+   	  at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+   	  at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+   	  at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+   	  at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+   	  at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+   	  at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+   	  at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+   	  at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+   	  at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+   	  at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+   	  at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+   	  at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+   	  at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+   	  at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+   	  at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+   	  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+   	  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+   	  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+   	  at java.lang.reflect.Method.invoke(Method.java:497)
+   	  at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+
+Let's see where the NullPointer is occurring and open `ctrl+n` BallServiceImpl, and use `ctrl+g` to enter line `18`, as it states in the second line of the Stacktrace.
 
 ## Navigate to method `ctrl+F12` (example with paste from stacktrace and quick check equals impl)
 // TODO
