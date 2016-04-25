@@ -154,4 +154,67 @@ So with our multicursors still there, put a `,` behind every copied enum, and pr
 Complete the `yaReallyStatuses_ContainOnlyDoneAndDunno` test on your own. Hint: `alt+insert` is context sensitive, meaning IntelliJ will know what you want because you're in a Unit Test.
 
 ### Making csv lists from XML
-// TODO
+Here's an excerpt of our xml containing a bunch of people from DC's Batman.
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Persons>
+    <Person>
+        <FirstName>Bruce</FirstName>
+        <LastName>Wayne</LastName>
+        <Age>24</Age>
+        <SecretIdentity>Batman</SecretIdentity>
+    </Person>
+    <Person>
+        <FirstName>Pamela Lillian</FirstName>
+        <LastName>Isley</LastName>
+        <Age>26</Age>
+        <SecretIdentity>Poison Ivy</SecretIdentity>
+    </Person>
+    <Person>
+        <FirstName>Edward</FirstName>
+        <LastName>Nigma</LastName>
+        <Age>41</Age>
+        <SecretIdentity>The Riddler</SecretIdentity>
+    </Person>
+</Persons>
+```
+We'll try and create a csv list from this xml.
+
+So let's open (`ctrl+shift+n`) `Batman.xml`, and navigate to the directory where it's at with `ctrl+F1`.
+
+Create a new file with `alt+insert` and call it `persons.csv`.
+
+Copy the contents of `Batman.xml` into `persons.csv`. We can delete the first line already with `ctrl+y`.
+
+We know that every `</` denotes the end of one field, but if we would `ctrl+alt+shift+j` on that, we would also include the `</Person>` tags.
+
+These tags though, denote the end of one line, so let's first get rid of those and replace them with simple `new lines`. That means we can simply get rid of the start tag `<Person>` with `ctrl+y`.
+
+Your file should now only contain items like this:
+```
+        <FirstName>Bruce</FirstName>
+        <LastName>Wayne</LastName>
+        <Age>24</Age>
+        <SecretIdentity>Batman</SecretIdentity>
+
+```
+
+Select all the closing tags by selecting `</` and `ctrl+alt+shift+j`, and replace them by a `,`.
+
+Your file should now only contain items like this:
+```
+        <FirstName>Bruce,
+        <LastName>Wayne,
+        <Age>24,
+        <SecretIdentity>Batman,
+
+```
+If you want to retain the tag names as a CSV header line you can `alt+j` on the opening angular brackets and `ctrl+w` to select all tag names.
+
+Paste them at the top (`home`) while in _Column Mode_ to retain the multicursors, at the `end` of the line put a `,` and `ctrl+shift+j`oin lines.
+
+Then select all the opening tags by selecting `<` and `ctrl+alt+shift+j`.
+
+Expand selection with `ctrl+w`, delete the tags, `ctrl+shift+j`oin lines and remove the last `,` at the `end` of the line. You can then still get rid of excess new lines by pressing `up` and either `ctrl+shift+j`oin lines or `ctrl+y` delete line.
+
+And that's it.
