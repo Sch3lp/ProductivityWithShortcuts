@@ -1,20 +1,9 @@
 package be.swsb.productivity.chapter2.mud.domain;
 
-public class Ball {
-    private final String id;
-    private final int size;
+public class RealBall extends Ball {
 
-    public Ball(String id, int size) {
-        this.id = id;
-        this.size = size;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public int getSize() {
-        return size;
+    public RealBall(String id, int size) {
+        super(id, size);
     }
 
     public void bounce(){
@@ -93,22 +82,4 @@ public class Ball {
         System.out.println("complete");
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        Ball ball = (Ball) o;
-
-        if (size != ball.size) return false;
-        return id != null ? id.equals(ball.id) : ball.id == null;
-
-    }
-
-    @Override
-    public int hashCode() {
-        int result = id != null ? id.hashCode() : 0;
-        result = 31 * result + size;
-        return result;
-    }
 }

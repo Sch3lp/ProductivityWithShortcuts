@@ -159,6 +159,15 @@ Here's a strip of a stacktrace.
 
 Let's see where the NullPointer is occurring and open `ctrl+n` BallServiceImpl, and use `ctrl+g` to enter line `18`, as it states in the second line of the Stacktrace.
 
-## Navigate to method `ctrl+F12` (example with paste from stacktrace and quick check equals impl)
-// TODO
+## Navigate to method `ctrl+F12`
+### Paste from stacktrace
+Another way of navigating to the place where the NullPointer occurs, albeit less exact, is to first copy the method from the stacktrace, in this case `findBall`.
 
+Then open `ctrl+n` BallServiceImpl, press `ctrl+F12`, which lists all methods of a class, and paste the method from the stacktrace in that popup window. You can then press `Enter` and navigate to that method.
+
+### Quick check equals impl
+Want to write a comparator for some object, or want to use it in a Set? You'll want to know about that objects `equals()` implementation.
+
+If that object is chock full of other methods, it might be easier to tap `ctrl+F12` to check for an equals implementation. If you can't find it from the first try, tap `ctrl+F12` again to browse the methods of the superclass as well.
+
+Let's open `RealBall` with `ctrl+n`, and try to find out if this class has its own `equals` and `hashcode` implementation, or if it uses its superclass implementations.
