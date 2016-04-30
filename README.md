@@ -43,7 +43,7 @@ GLHF!
 * Begin/End of File ![Windows](icons/glyph-windows-20.png)`ctrl+home`, `ctrl+end`
 * CamelHumps (+ how to toggle)
 * Jumping methods ![Windows](icons/glyph-windows-20.png)`alt+up,down`
-* Jump to error `F2`
+* Jump to error ![Windows](icons/glyph-windows-20.png)`F2`
 * Jump to last edit position ![Windows](icons/glyph-windows-20.png)`ctrl+shift+backspace`
 * Jump into/Drill Down/Show Usage ![Windows](icons/glyph-windows-20.png)`ctrl(+alt)+b`
 * History and its importance ![Windows](icons/glyph-windows-20.png)`ctrl+alt+left,right`
@@ -82,7 +82,7 @@ GLHF!
 
 ## [Chapter 7 - Finding/Buffer](chapter7.md)
 * Find word and add to buffer ![Windows](icons/glyph-windows-20.png)`ctrl+F3`
-* Find next occurrence from buffer `F3`
+* Find next occurrence from buffer ![Windows](icons/glyph-windows-20.png)`F3`
 
 ## [Chapter 8 - Multiple Cursors](chapter8.md)
 * Toggle Column Mode ![Windows](icons/glyph-windows-20.png)`alt+shift+ins`
