@@ -63,6 +63,6 @@ Try ![Windows](icons/glyph-windows-20.png)`ctrl+z` and see what that does. Try !
 
 Keep this in mind when you work in IntelliJ, or in another editor that doesn't have ![Windows](icons/glyph-windows-20.png)`ctrl+y` for _Redo_ :)
 
-[_Next Chapter](chapter2.md)
+[_Next Chapter_](chapter2.md)
 
 [_Back to outline_](outline.md)

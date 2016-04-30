@@ -18,6 +18,6 @@ Open `War.java`, position your cursor on `13:33` with ![Windows](icons/glyph-win
 
 Find the next `.`.
 
-[_Next Chapter](chapter8.md)
+[_Next Chapter_](chapter8.md)
 
 [_Back to outline_](outline.md)

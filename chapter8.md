@@ -221,6 +221,6 @@ Expand selection with ![Windows](icons/glyph-windows-20.png)`ctrl+w`, delete the
 
 And that's it.
 
-[_Next Chapter](chapter9.md)
+[_Next Chapter_](chapter9.md)
 
 [_Back to outline_](outline.md)

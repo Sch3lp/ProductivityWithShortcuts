@@ -40,6 +40,6 @@ Then apply the same pattern to the entire method body but type a `{`.
 
 This feature really shines in combination with multi-cursor (which we'll see in a later chapter).
 
-[_Next Chapter](chapter4.md)
+[_Next Chapter_](chapter4.md)
 
 [_Back to outline_](outline.md)

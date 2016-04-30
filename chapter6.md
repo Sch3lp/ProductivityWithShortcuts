@@ -100,6 +100,6 @@ Then put your cursor in between the brackets and type ![Windows](icons/glyph-win
 
 Notice how IntelliJ signals which parameter you're required to fill in by **emboldening** the parameter name.
 
-[_Next Chapter](chapter7.md)
+[_Next Chapter_](chapter7.md)
 
 [_Back to outline_](outline.md)
