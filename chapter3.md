@@ -17,9 +17,7 @@ Try using ![Windows](icons/glyph-windows-20.png)`ctrl+shift+w` and see what that
 What happens if you keep on pressing that combination?
 
 ## Using Selection to help Navigation (e.g. Fluent API)
-Because ![Windows](icons/glyph-windows-20.png)`ctrl+w` expands a selection,
-
-and because the arrow keys decide where our cursor is going to be: `left` at the beginning or `right` at the end of the selection.
+Because ![Windows](icons/glyph-windows-20.png)`ctrl+w` expands a selection, and because the arrow keys decide where our cursor is going to be: ![Windows](icons/glyph-windows-20.png)`left` at the beginning or ![Windows](icons/glyph-windows-20.png)`right` at the end of the selection.
 
 We can use a little trick to format our Fluent API.
 
