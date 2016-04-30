@@ -1,5 +1,8 @@
 # Chapter 4 - Line Editing
 [_Back to outline_](outline.md)
+
+Pro-tip: [Listen to this while solving the exercises](https://www.youtube.com/watch?v=DcU4_FuZIkI)
+
 ##Duplicate line ![Windows](icons/glyph-windows-32.png)`ctrl+d`
 Open `Chapter4.java`, move your cursor to line 6, press ![Windows](icons/glyph-windows-20.png)`ctrl+d`.
 
