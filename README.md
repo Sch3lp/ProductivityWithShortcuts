@@ -38,7 +38,7 @@ GLHF!
 
 # Outline
 
-## Chapter 1 - Basics
+## [Chapter 1 - Basics](chapter1.md)
 * `ctrl+c`, `ctrl+v`
 * Keep your hands on your keyboard
 * How to look up any actions' shortcut `ctrl+shift+a`, `double shift`
