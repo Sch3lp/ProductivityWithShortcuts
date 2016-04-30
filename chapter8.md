@@ -1,4 +1,6 @@
 # Chapter 8 - Multiple Cursors
+[_Back to outline_](outline.md)
+
 The feature you've all been waiting for: _Multiple Cursors_!
 
 This is probably the most powerful and useful feature any text editor could have. But sadly enough, it might be the most underused one as well because it's harder to grasp.
@@ -218,3 +220,5 @@ Then select all the opening tags by selecting `<` and `ctrl+alt+shift+j`.
 Expand selection with `ctrl+w`, delete the tags, `ctrl+shift+j`oin lines and remove the last `,` at the `end` of the line. You can then still get rid of excess new lines by pressing `up` and either `ctrl+shift+j`oin lines or `ctrl+y` delete line.
 
 And that's it.
+
+[_Back to outline_](outline.md)

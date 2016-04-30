@@ -1,4 +1,5 @@
 # Chapter 6 - IntelliJ's Suggestions
+[_Back to outline_](outline.md)
 ## IntelliJ's Auto-correct `ctrl+shift+enter`
 Sometimes we make mistakes, mistakes that will take us into the deepest pits of bracket hell.
 
@@ -98,3 +99,5 @@ First uncomment the `// Decepticon.StarScream()` line.
 Then put your cursor in between the brackets and type `ctrl+p`.
 
 Notice how IntelliJ signals which parameter you're required to fill in by **emboldening** the parameter name.
+
+[_Back to outline_](outline.md)

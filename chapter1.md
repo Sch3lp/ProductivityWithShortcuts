@@ -1,5 +1,5 @@
 # Chapter 1 - Basics
-
+[_Back to outline_](outline.md)
 ## crl+c, ctrl+v
 Copy the Chapter1 constructor to create a new one without a number, have the default number be 0.
 
@@ -62,3 +62,5 @@ So try `ctrl+y`, then try `ctrl+shift+z` like you meant to do.
 Try `ctrl+z` and see what that does. Try `ctrl+shift+z` again now.
 
 Keep this in mind when you work in IntelliJ, or in another editor that doesn't have `ctrl+y` for _Redo_ :)
+
+[_Back to outline_](outline.md)

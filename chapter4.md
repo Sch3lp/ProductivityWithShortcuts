@@ -1,4 +1,5 @@
 # Chapter 4 - Line Editing
+[_Back to outline_](outline.md)
 ##Duplicate line `ctrl+d`
 Open `Chapter4.java`, move your cursor to line 6, press `ctrl+d`.
 
@@ -29,3 +30,5 @@ Don't do `end`, `delete`, `end`, `delete`, ...
 Instead, first select all of the thundercats names (the strings), then press `ctrl+shift+j` (for Join lines). Hint: `ctrl+w` right after the `{`.
 
 You might have to repeat the `ctrl+shift+j` combination, because IntelliJ's auto-formatting kicks in sometimes.
+
+[_Back to outline_](outline.md)

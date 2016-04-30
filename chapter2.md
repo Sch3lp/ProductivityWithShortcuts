@@ -1,5 +1,5 @@
 # Chapter 2 - Navigation
-
+[_Back to outline_](outline.md)
 ## Word-skipping `ctrl+arrows`
 Open Chapter2.java, place your cursor in front of the `The` of the popular phrase, and tap `ctrl+right` 8 times.
 
@@ -171,3 +171,5 @@ Want to write a comparator for some object, or want to use it in a Set? You'll w
 If that object is chock full of other methods, it might be easier to tap `ctrl+F12` to check for an equals implementation. If you can't find it from the first try, tap `ctrl+F12` again to browse the methods of the superclass as well.
 
 Let's open `RealBall` with `ctrl+n`, and try to find out if this class has its own `equals` and `hashcode` implementation, or if it uses its superclass implementations.
+
+[_Back to outline_](outline.md)

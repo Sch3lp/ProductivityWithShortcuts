@@ -1,4 +1,5 @@
 # Chapter 3 - Selection
+[_Back to outline_](outline.md)
 ## Move + Select `ctrl+shift+arrows`
 Open `Chapter3.java`, then move your cursor to the beginning of `"jumps over"`, hold down `ctrl` and `shift` and press the `right` arrow to select that sentence and cut and paste it behind the first line.
 
@@ -40,3 +41,5 @@ Then apply the same pattern to `yewwww` but instead of a `"`, type a `(`.
 Then apply the same pattern to the entire method body but type a `{`.
 
 This feature really shines in combination with multi-cursor (which we'll see in a later chapter).
+
+[_Back to outline_](outline.md)

@@ -1,4 +1,6 @@
 # Chapter 5 - Embedded Windows
+[_Back to outline_](outline.md)
+
 IntelliJ has various _Tool Windows_, like the `1: Project` window, `9: Version Control` window, or `3: Find` window. When one of these _embedded_ windows have focus, other shortcuts are available.
 
 In this topic we'll talk about some of them.
@@ -43,3 +45,5 @@ So, let's first imagine we were looking at a hierarchy of `CoffeeBeans.scent()`,
 Now we have both the `1: Project` and `8: Hierarchy` _Tool Windows_ open. But we want to continue tweaking the CoffeeSmellers code, so let's press `ctrl+shift+F12` and get our focus back on where it belongs, without any distractions.
 
 Happy editing!
+
+[_Back to outline_](outline.md)
