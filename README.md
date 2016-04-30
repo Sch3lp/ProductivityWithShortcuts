@@ -46,7 +46,7 @@ GLHF!
 * Undo, Redo with `ctrl+z` and `ctrl+shift+z`
 * Indenting, formatting with `tab`, `shift+tab` and `ctrl+alt+l`
 
-## Chapter 2 - Navigation
+## [Chapter 2 - Navigation](chapter2.md)
 * Word-skipping `ctrl+arrows`
 * Begin/End of Line `home`, `end`
 * Begin/End of File `ctrl+home`, `ctrl+end`
