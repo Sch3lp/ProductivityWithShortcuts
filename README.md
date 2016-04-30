@@ -93,7 +93,7 @@ GLHF!
 * Find word and add to buffer `ctrl+F3`
 * Find next occurrence from buffer `F3`
 
-## Chapter 8 - Multiple Cursors
+## [Chapter 8 - Multiple Cursors](chapter8.md)
 * Toggle Column Mode `alt+shift+ins`
 * `alt+j`, `alt+shift+j` and `ctrl+alt+shift+j`
 

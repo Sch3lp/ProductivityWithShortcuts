@@ -6,19 +6,7 @@ import static be.swsb.productivity.common.FuglyTestBuilder.fugly;
 public class Fugly {
 
     public static void indentMeProperlyPlease() {
-        System.out.println(fugly()
-                .withEff("f")
-                                            .withYew("u")
-    .withGee("g")
-                    .withEll("l")
-                                                    .withYew("y")
-            .withFace(face()
-                                    .withEyes(1)
-                        .withColor("poop-brown")
-        .withNosewidth(500)
-.build())
-                            .build()
-                                                                    .toString());
+        System.out.println(fugly().withEff("f").withYew("u").withGee("g").withEll("l").withYew("y").withFace(face().withEyes(1).withColor("poop-brown").withNosewidth(500).build()).build().toString());
     }
 
     public static void indentedItShouldLookLikeThis() {
@@ -36,4 +24,5 @@ public class Fugly {
                 .build()
                 .toString());
     }
+
 }
