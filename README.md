@@ -61,26 +61,26 @@ GLHF!
 * Navigate to method `ctrl+F12` (example with paste from stacktrace and quick check equals impl)
 * `alt+F7` vs. `ctrl+alt+h`
 
-## Chapter 3 - Selection
+## [Chapter 3 - Selection](chapter3.md)
 * Move + Select `ctrl+shift+arrows`
 * Expand Selection `ctrl+w`
 * Using Selection to help Navigation (e.g. _Fluent API_)
 * Wrapping (IntelliJ feature)
 
-## Chapter 4 - Line Editing
+## [Chapter 4 - Line Editing](chapter4.md)
 * Yank `ctrl+y`
 * Duplicate line `ctrl+d`
 * Moving lines with and without constraints `ctrl+shift+up,down` vs. `alt+shift+up,down`
 * Start new line `ctrl+enter`
 * Join lines `ctrl+shift+j`
 
-## Chapter 5 - Embedded Windows
+## [Chapter 5 - Embedded Windows](chapter5.md)
 * Opening/Closing (Toggling) `alt+number` `ctrl+F4`
 * Switching tabs `alt+left,right`
 * Why resizing is for dummies `ctrl+shift+F12`
 * Navigation from Embedded Windows `ctrl+enter` vs. `F4`
 
-## Chapter 6 - IntelliJ's Suggestions
+## [Chapter 6 - IntelliJ's Suggestions](chapter6.md)
 * IntelliJ's Auto-correct `ctrl+shift+enter`
 * Autocomplete `ctrl+space` vs. `ctrl+shift+space`
 * _QuickFix_ (:bulb:) `alt+enter`
@@ -89,7 +89,7 @@ GLHF!
 * View JavaDoc `ctrl+q`
 * View parameters `ctrl+p`
 
-## Chapter 7 - Finding/Buffer
+## [Chapter 7 - Finding/Buffer](chapter7.md)
 * Find word and add to buffer `ctrl+F3`
 * Find next occurrence from buffer `F3`
 
@@ -102,7 +102,7 @@ We'll see a lot of different cases, such as but not limited to:
 * Testing Enum lists
 * Making a csv list from XML
 
-## Chapter 9 - Endgame
+## [Chapter 9 - Endgame](chapter9.md)
 We'll make a full exercise where you'll:
 
 1. Create a new class that resides in a new package and has to interact with another existing class
