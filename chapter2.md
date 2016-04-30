@@ -172,4 +172,6 @@ If that object is chock full of other methods, it might be easier to tap ![Windo
 
 Let's open `RealBall` with ![Windows](icons/glyph-windows-20.png)`ctrl+n`, and try to find out if this class has its own `equals` and `hashcode` implementation, or if it uses its superclass implementations.
 
+[_Next Chapter](chapter3.md)
+
 [_Back to outline_](outline.md)

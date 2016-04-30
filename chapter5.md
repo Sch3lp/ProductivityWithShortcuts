@@ -46,4 +46,6 @@ Now we have both the `1: Project` and `8: Hierarchy` _Tool Windows_ open. But we
 
 Happy editing!
 
+[_Next Chapter](chapter6.md)
+
 [_Back to outline_](outline.md)
