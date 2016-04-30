@@ -101,3 +101,8 @@ We'll make a full exercise where you'll:
 3. Create a new TestBuilder for the existing class
 4. Perform a _red, green, refactor_
 5. (Optional) commit and push
+
+# License
+The example code is published under the [MIT License](LICENSE.md).
+
+The mac and windows logo icons used are under the [Creative Common License (Attr. 3 Unported)](http://creativecommons.org/licenses/by/3.0/), and are completely attributed to the artist [Bogdan Rosu](https://www.iconfinder.com/bogdanrosu).
