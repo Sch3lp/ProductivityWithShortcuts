@@ -10,8 +10,8 @@ Use your mouse to move your cursor to somewhere else, then press ![Windows](icon
 ## Keep your hands on your keyboard
 Do the same exercise, but **ONLY** use your keyboard to select text.
 
-## How to look up any actions' shortcut ![Windows](icons/glyph-windows-20.png)`ctrl+shift+a`, `double shift`
-Repeat Exercise 1, but instead of ctrl+c and ctrl+v, use ctrl+shift+a to look up your copy and paste actions
+## How to look up any actions' shortcut ![Windows](icons/glyph-windows-32.png)`ctrl+shift+a`, `double shift`
+Repeat Exercise 1, but instead of ![Windows](icons/glyph-windows-20.png)`ctrl+c` and ![Windows](icons/glyph-windows-20.png)`ctrl+v`, use ![Windows](icons/glyph-windows-20.png)`ctrl+shift+a` to look up your copy and paste actions
 
 ## IntelliJ's _Productivity Guide_
 Open IntelliJ's Productivity Guide using these key combinations:
