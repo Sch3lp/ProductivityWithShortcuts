@@ -3,18 +3,22 @@ version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 
-sourceCompatibility = 1.8
+sourceCompatibility = JavaVersion.VERSION_17
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testCompile (
-            "junit:junit:4.11",
-            "org.assertj:assertj-core:1.7.0",
+    testImplementation (
+            "org.junit.jupiter:junit-jupiter:5.9.3",
+            "org.assertj:assertj-core:3.24.2",
     )
-    compile (
-            'com.google.guava:guava:19.0'
+    implementation (
+            'com.google.guava:guava:32.0.1-jre'
     )
+}
+
+test {
+    useJUnitPlatform()
 }

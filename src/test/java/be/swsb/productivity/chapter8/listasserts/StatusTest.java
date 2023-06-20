@@ -1,6 +1,6 @@
 package be.swsb.productivity.chapter8.listasserts;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static be.swsb.productivity.chapter8.listasserts.Status.*;
 import static org.assertj.core.api.Assertions.assertThat;
