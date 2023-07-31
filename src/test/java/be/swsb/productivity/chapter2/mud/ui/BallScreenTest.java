@@ -4,7 +4,7 @@ import be.swsb.productivity.chapter2.mud.domain.Ball;
 import be.swsb.productivity.chapter2.mud.domain.BallRepository;
 import be.swsb.productivity.chapter2.mud.domain.RealBall;
 import be.swsb.productivity.chapter2.mud.service.BallServiceImpl;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
