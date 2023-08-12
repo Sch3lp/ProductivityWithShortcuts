@@ -45,9 +45,9 @@ side, then <kbd>Tab</kbd> the entire selection into its first indentation, decre
 indentation. Rinse and repeat.
 
 ## Auto-indent with ![Windows](icons/glyph-windows-20.png)`ctrl+alt+l`
-Open FuglyToo.java, select a couple of lines starting with the `.withFace(face()` line and press ![Windows](icons/glyph-windows-20.png)`ctrl+alt+l`.
-
-Now empty your selection (select nothing), and press ![Windows](icons/glyph-windows-20.png)`ctrl+alt+l` again.
+You can use this combination on specific lines, as well on entire files.
+Open FuglyToo.java, select a couple of lines starting with the `.withFace(face()` line and press ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>l</kbd>.
+Now empty your selection (select nothing), and press ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>l</kbd> again.
 
 ## Undo, Redo ![Windows](icons/glyph-windows-20.png)`ctrl+z` and ![Windows](icons/glyph-windows-20.png)`ctrl+shift+z`
 
