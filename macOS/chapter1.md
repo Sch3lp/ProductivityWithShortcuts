@@ -46,7 +46,7 @@ Hint: When manually indenting, first use ![Mac](../icons/glyph-apple-20.png)<kbd
 side, then <kbd>&#8677;</kbd> the entire selection into its first indentation, decrease your selection and <kbd>&#8677;</kbd> that into its second
 indentation. Rinse and repeat.
 
-## Auto-indent with ![Mac](../icons/glyph-apple-20.png) &#8963; + &#8997; + l
+## Auto-indent with ![Mac](../icons/glyph-apple-32.png) &#8963; + &#8997; + l
 You can use this combination on specific lines, as well on entire files.
 Open FuglyToo.java, select a couple of lines starting with the `.withFace(face()` line and press <kbd>&#8963;</kbd> + <kbd>&#8997;</kbd> + <kbd>l</kbd>.
 Now empty your selection (select nothing), and press <kbd>&#8963;</kbd> + <kbd>&#8997;</kbd> + <kbd>l</kbd> again.
@@ -55,7 +55,6 @@ Now empty your selection (select nothing), and press <kbd>&#8963;</kbd> + <kbd>&
 
 The default `undo` and `redo` keyboard shortcuts on MacOS work the same over most applications. The weird behavior described in the windows section is
 not relevant for Mac users. Use ![Mac](../icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>z</kbd> to undo, and <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>z</kbd> to redo.
-
 
 [_Next Chapter_](chapter2.md)  
 [_Back to outline_](outline.md)
