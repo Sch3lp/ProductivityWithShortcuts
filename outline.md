@@ -19,6 +19,7 @@
 * Jump into/Drill Down/Show Usage ![Windows](icons/glyph-windows-20.png)`ctrl(+alt)+b`
 * History and its importance ![Windows](icons/glyph-windows-20.png)`ctrl+alt+left,right`
 * Show in Project ![Windows](icons/glyph-windows-20.png)`alt+F1`
+* Pop-up windows (but not the annoying kind) ![Windows](icons/glyph-windows-20.png) `ctrl + shift + i`
 * Jump to line ![Windows](icons/glyph-windows-20.png)`ctrl+g` (example with paste from stacktrace)
 * Navigate to method ![Windows](icons/glyph-windows-20.png)`ctrl+F12` (example with paste from stacktrace and quick check equals impl)
 * ![Windows](icons/glyph-windows-20.png)`alt+F7` vs. ![Windows](icons/glyph-windows-20.png)`ctrl+alt+h`
