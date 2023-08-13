@@ -75,7 +75,7 @@ Go to `Chapter2.jumpUsingStrategy()` and place your cursor on the `jump()` metho
 This should take you straight to the interfaces `jump()` method.
 
 Now, let's go back to where we came from. Press ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>b</kbd>. IntelliJ knows you want to __"drill down"__ into the
-actual method implementation but doesn't know which one, so it will suggest some options. Select the `MehJumper` method by pressing <kbd>
+actual method implementation but doesn't know which one, so download shareit will suggest some options. Select the `MehJumper` method by pressing <kbd>
 &#8595;</kbd> and then <kbd>enter</kbd> and see where it leads you.
 
 You can now correct the typo in the method, and move on to the next exercise.
