@@ -13,7 +13,8 @@ You can also minimize the current active tool window using ![Windows](icons/glyp
 
 ## Switching tabs ![Windows](icons/glyph-windows-32.png)`alt+left,right`
 Some of these windows have multiple tabs in them, i.e. the `6: TODO` window.
-So let's open that window, using ![Windows](icons/glyph-windows-20.png)<kbd>alt</kbd> + <kbd>6</kbd>.
+So let's open that window, using ![Windows](icons/glyph-windows-20.png)<kbd>alt</kbd> + <kbd>6</kbd>.  
+
 You'll notice that it contains the _Project_, _Current File_, _Scope Based_ and _Default Changelist_ tabs.
 You can switch between these tabs by pressing ![Windows](icons/glyph-windows-20.png)<kbd>alt</kbd> + <kbd>&#8594;</kbd> and <kbd>alt</kbd> + <kbd>&#8592;</kbd>.
 
@@ -32,25 +33,27 @@ Let's try 'em both out.
 We want to follow the path the code takes at runtime until we get to `CoffeeBeans.scent()`, so let's trace back our steps from there by
 opening `CoffeeBeans.java`, and <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>h</kbd> on the `scent()` method.
 
-Use <kbd>ctrl</kbd> + <kbd>enter</kbd> on `CoffeeSmeller.smell()`, see where it takes you, then <kbd>ctrl</kbd> + <kbd>enter</kbd>
+Use ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>enter</kbd> on `CoffeeSmeller.smell()`, see where it takes you, then <kbd>ctrl</kbd> + <kbd>enter</kbd>
 on `Chapter5.smellBeans()`.
 
 We figured out we want to change something in `CoffeeSmeller`, so select `CoffeeSmeller` in the `8: Hierarchy` tool window and instead of
-pressing <kbd>ctrl</kbd> + <kbd>enter</kbd>, press <kbd>F4</kbd>.
+pressing ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>enter</kbd>, press <kbd>F4</kbd>.
 
 Now we can change the implementation.
 
 ## Why resizing is for dummies ![Windows](icons/glyph-windows-32.png)`ctrl+shift+F12`
 Stop resizing your _Tool Windows_, use them when you need them (see _Opening/Closing (Toggling)_).
 
-If you don't need your _Tool Window_, you'll want to focus back on your editor window. You can do this from anywhere (meaning, from any focussed _Tool Window_) by pressing ![Windows](icons/glyph-windows-20.png)`ctrl+shift+F12`.
+If you don't need your _Tool Window_, you'll want to focus back on your editor window. You can do this from anywhere (meaning, from any
+focussed _Tool Window_) by pressing ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>F12</kbd>.
 
-So, let's first imagine we were looking at a hierarchy of `CoffeeBeans.scent()`, we looked at `CoffeeSmeller`'s use and we checked where in the package structure `CoffeeSmeller` was situated by pressing ![Windows](icons/glyph-windows-20.png)`alt+F1`.
+So, let's first imagine we were looking at a hierarchy of `CoffeeBeans.scent()`, we looked at `CoffeeSmeller`'s use and we checked where in
+the package structure `CoffeeSmeller` was situated by pressing ![Windows](icons/glyph-windows-20.png)<kbd>alt</kbd> + <kbd>F1</kbd>.
 
-Now we have both the `1: Project` and `8: Hierarchy` _Tool Windows_ open. But we want to continue tweaking the CoffeeSmellers code, so let's press ![Windows](icons/glyph-windows-20.png)`ctrl+shift+F12` and get our focus back on where it belongs, without any distractions.
+Now we have both the `1: Project` and `8: Hierarchy` _Tool Windows_ open. But we want to continue tweaking the CoffeeSmellers code, so let's
+press ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>F12</kbd> and get our focus back on where it belongs, without any distractions.
 
 Happy editing!
 
 [_Next Chapter_](chapter6.md)
-
 [_Back to outline_](outline.md)
