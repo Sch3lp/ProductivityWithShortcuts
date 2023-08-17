@@ -10,6 +10,10 @@ Open `Chapter4.java`, move your cursor to line 6 (try and use a shortcut for thi
 ## Yank ![Windows](icons/glyph-windows-20.png)`ctrl+y`
 Press ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>y</kbd> repeatedly to delete the lines.
 
+> **NOTE:**  
+> Similar to the `yank` command in (vim)[https://www.vim.org/], the text you removed is available in your paste-buffer.
+> Meaning that pasting will reproduce the lines you just yanked out.
+
 ## Moving lines with and without constraints ![Windows](icons/glyph-windows-20.png)`ctrl+shift+up,down` vs. ![Windows](icons/glyph-windows-20.png)`alt+shift+up,down`
 While in `Chapter4.java`, the `System.out.println` function calls are switched around.
 Place your cursor on one of the `System.out.println` lines, hold down ![Windows](icons/glyph-windows-20.png)<kbd>alt</kbd> + <kbd>shift</kbd> and press <kbd>&#x2191;</kbd> or ![Windows](icons/glyph-windows-20.png)<kbd>&#x2193;</kbd> to move that line.
