@@ -1,4 +1,7 @@
 # ProductivityWithShortcuts
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 Code with exercises to learn shortcuts and their associated thinking patterns
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -62,15 +65,13 @@ The mac and windows logo icons used are under the [Creative Common License (Attr
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tr>
-    <td align="center"><a href="http://sch3lp.github.io"><img src="https://avatars.githubusercontent.com/u/648703?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tim Schraepen</b></sub></a></td>
-    <td align="center"><a href="https://github.com/ventouristeam"><img src="https://avatars.githubusercontent.com/u/15155026?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Team Ventouris</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/lennehendrickx"><img src="https://avatars.githubusercontent.com/u/353969?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lenne Hendrickx</b></sub></a></td>
-    <td align="center"><a href="https://github.com/Jooones"><img src="https://avatars.githubusercontent.com/u/10074080?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jonathan Vanoverloop</b></sub></a></td>
-    <td align="center"><a href="http://sddevelopment.be/"><img src="https://avatars.githubusercontent.com/u/25401297?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stijn Dejongh</b></sub></a></td>
-
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/lennehendrickx"><img src="https://avatars.githubusercontent.com/u/353969?v=4?s=100" width="100px;" alt="Lenne Hendrickx"/><br /><sub><b>Lenne Hendrickx</b></sub></a><br /><a href="#content-lennehendrickx" title="Content">🖋</a> <a href="https://github.com/Sch3lp/ProductivityWithShortcuts/commits?author=lennehendrickx" title="Documentation">📖</a></td>
+    </tr>
+  </tbody>
 </table>
+
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
@@ -78,3 +79,15 @@ The mac and windows logo icons used are under the [Creative Common License (Attr
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
