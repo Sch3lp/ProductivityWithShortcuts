@@ -139,6 +139,8 @@ Then put your cursor in between the brackets and type <kbd>ctrl</kbd> + <kbd>P</
 Notice how IntelliJ signals which parameter you are required to fill in by **emboldening** the parameter name.
 
 ---
+  
 
-[_Next Chapter_](chapter7.md)
+[_Next Chapter_](chapter7.md)  
+
 [_Back to outline_](outline.md)

@@ -217,6 +217,8 @@ Let's open `RealBall.java`, and try to find out if this class has its own `equal
 its superclass implementations.
 
 ---
+  
 
-[_Next Chapter_](chapter3.md)
+[_Next Chapter_](chapter3.md)  
+
 [_Back to outline_](outline.md)

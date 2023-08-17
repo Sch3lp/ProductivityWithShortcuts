@@ -83,4 +83,5 @@ Keep this strange behavior in mind when you work in IntelliJ, or in another edit
 ---
 
 [_Next Chapter_](chapter2.md)  
+
 [_Back to outline_](outline.md)

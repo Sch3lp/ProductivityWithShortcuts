@@ -269,6 +269,8 @@ line.
 And that's it.
 
 ---
+  
 
-[_Next Chapter_](chapter9.md)
+[_Next Chapter_](chapter9.md)  
+
 [_Back to outline_](outline.md)

@@ -21,6 +21,8 @@ the `.` and press <kbd>ctrl</kbd> + <kbd>F3</kbd>.
 **Exercise:** Find the next `.`.
 
 ---
+  
 
-[_Next Chapter_](chapter8.md)
+[_Next Chapter_](chapter8.md)  
+
 [_Back to outline_](outline.md)

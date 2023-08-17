@@ -56,6 +56,8 @@ press ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>shift</kbd> +
 Happy editing!
 
 ---
+  
 
-[_Next Chapter_](chapter6.md)
+[_Next Chapter_](chapter6.md)  
+
 [_Back to outline_](outline.md)

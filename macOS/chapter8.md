@@ -199,18 +199,18 @@ Here's an excerpt of an XML file containing a bunch of people from DC's Batman u
 </Persons>
 ```
 
-So let's open (<kbd>&#8984;</kbd> + <kbd>O</kbd>) `Batman.xml`, and navigate to the directory where it's at
-with <kbd>&#8984;</kbd> + <kbd>1</kbd>.
+So let's open (![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>O</kbd>) `Batman.xml`, and navigate to the directory where it's at
+with ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>1</kbd>.
 
-Create a new file with <kbd>&#8984;</kbd> + <kbd>n</kbd> and call it `persons.csv`.
+Create a new file with ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>n</kbd> and call it `persons.csv`.
 
-Copy the contents of `Batman.xml` into `persons.csv`. We can already delete the first line with <kbd>&#8984;</kbd> + <kbd>backspace</kbd>.
+Copy the contents of `Batman.xml` into `persons.csv`. We can already delete the first line with ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>backspace</kbd>.
 
-We know that every `</` denotes the end of one field, but if we were to use <kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> on
+We know that every `</` denotes the end of one field, but if we were to use ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> on
 that, we would also include the `</Person>` tags.
 
 These tags though, denote the end of one line, so let's first get rid of those and replace them with simple `new lines`.
-This means we can simply get rid of the start tag `<Person>` with <kbd>&#8984;</kbd> + <kbd>backspace</kbd>.
+This means we can simply get rid of the start tag `<Person>` with ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>backspace</kbd>.
 
 Your file should now only contain items like this one:
 
@@ -222,7 +222,7 @@ Your file should now only contain items like this one:
 <SecretIdentity>Batman</SecretIdentity>
 ```
 
-Select all the closing tags by selecting `</` and <kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>, and replace them by a `,`.
+Select all the closing tags by selecting `</` and ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>, and replace them by a `,`.
 
 Your file should now only contain items that look like this:
 
@@ -236,23 +236,25 @@ Your file should now only contain items that look like this:
 
 We will now get rid of the opening tags, so we end up with a CSV-formatted file.
 
-If you want to retain the tag names as a CSV header line you can <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> on the opening angular brackets (`<`)
-and <kbd>&#8997; Opt</kbd> + <kbd>&#8593;</kbd> to select all tag names.
+If you want to retain the tag names as a CSV header line you can ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> on the opening angular brackets (`<`)
+and ![Mac](./icons/glyph-apple-20.png)<kbd>&#8997; Opt</kbd> + <kbd>&#8593;</kbd> to select all tag names.
 
-Paste them at the top ( <kbd>&#8984;</kbd> + <kbd>&#8593;</kbd> ) while in _Column Mode_ to retain the multi-cursors, at the end (<kbd>&#8984;</kbd> + <kbd>&#8594;</kbd>) of the
-line put a `,` and press <kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>. The `j` indicating we wish to join lines together.
+Paste them at the top ( ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>&#8593;</kbd> ) while in _Column Mode_ to retain the multi-cursors, at the end (![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>&#8594;</kbd>) of the
+line put a `,` and press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>. The `j` indicating we wish to join lines together.
 
-Then select all the opening tags by selecting `<` and pressing  <kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>.
+Then select all the opening tags by selecting `<` and pressing ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>.
 
-Expand selection with <kbd>&#8997; Opt</kbd> + <kbd>&#8593;</kbd>, delete the tags, and join the lines together (<kbd>&#8963; ctrl</kbd> +
+Expand selection with ![Mac](./icons/glyph-apple-20.png)<kbd>&#8997; Opt</kbd> + <kbd>&#8593;</kbd>, delete the tags, and join the lines together (![Mac](./icons/glyph-apple-20.png)<kbd>&#8963; ctrl</kbd> +
 <kbd>shift</kbd> + <kbd>j</kbd>).
 Now remove the last `,` at the end of the line. You can then still get rid of excess new lines by
-pressing <kbd>&#8593;</kbd> and either <kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> or <kbd>&#8984;</kbd> + <kbd>backspace</kbd> delete
+pressing ![Mac](./icons/glyph-apple-20.png)<kbd>&#8593;</kbd> and either ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> or <![Mac](./icons/glyph-apple-20.png)kbd>&#8984;</kbd> + <kbd>backspace</kbd> delete
 line.
 
 And that's it.
 
 ---
+  
 
-[_Next Chapter_](chapter9.md)
+[_Next Chapter_](chapter9.md)  
+
 [_Back to outline_](outline.md)
