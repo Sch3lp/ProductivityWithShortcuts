@@ -29,6 +29,16 @@
         "design",
         "doc",
         "code"
+    },
+    {   
+      "login": "Jooones",
+      "name": "Jonathan Vanoverloop",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10074080?v=4",
+      "profile": "https://github.com/Jooones",
+      "contributions": [
+        "content",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
