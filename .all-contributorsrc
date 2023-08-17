@@ -1,0 +1,28 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "stijn-dejongh",
+      "name": "Stijn Dejongh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25401297?v=4",
+      "profile": "http://sddevelopment.be/",
+      "contributions": [
+        "content",
+        "design",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "ProductivityWithShortcuts",
+  "projectOwner": "Sch3lp"
+}
