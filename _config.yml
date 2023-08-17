@@ -1,3 +1,6 @@
-theme: jekyll-theme-minimal
-logo: ./ops/logo.png
+title: ProductivityWithHotkeys
+description: Code with exercises to learn shortcuts and their associated thinking patterns
+remote_theme: pages-themes/cayman@v0.2.0
 show_downloads: true
+plugins:
+  - jekyll-remote-theme
