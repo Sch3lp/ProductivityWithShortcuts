@@ -1,5 +1,6 @@
 # Chapter 3 - Selection
 [_Back to outline_](outline.md)
+
 ## Move + Select ![Windows](icons/glyph-windows-32.png)`ctrl+shift+arrows`
 Open `Chapter3.java`, then move your cursor to the beginning of the line containing `"jumps over"`, hold
 down ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd>, <kbd>shift</kbd> and press the right arrow key <kbd>&#8594;</kbd> to select that sentence.

@@ -6,10 +6,14 @@ Code with exercises to learn shortcuts and their associated thinking patterns
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## What you'll learn
-* Increase your productivity by using shortcuts. We'll use IntelliJ on windows as an example.
-* Think along with your pair, who's already proficient in using shortcuts.
-* In what situations/patterns shortcuts are helpful.
+In this tutorial series, you will learn:
+
+* How to increase your productivity by using IntelliJ shortcuts.
+* When and in what contexts shortcuts are useful.
 * Some patterns for multi-cursor usage.
+
+This tutorial walks you through different scenarios where the use of hotkeys is demonstrated in real-world situations.
+Learning them this way will help you identify situations where the use of a hotkey can be beneficial during your day-to-day work.
 
 ## How you'll learn
 By doing! The only way to get shortcuts in your fingers is by using them. All. The. Time.
@@ -33,6 +37,17 @@ You can start your journey by navigating to the [Windows hotkey tutorial](./wind
 If you like these exercises, share 'em with your friends and colleagues, `fork` or `watch` it.
 
 GLHF!
+
+# Additional tips
+If you are interested in a quick reference for the most commonly used hotkeys, take a look at [these JetBrains IDEA reference cards](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf).
+
+Looking for more personalized hotkey suggestions that will improve your development speed?  
+Take a look at the plugin [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x). It tracks your most commonly used actions, suggests hotkeys. It also shows you how many times you used a shortcut or took the long route.
+
+Another useful IDEA plugin for using hotkeys is the [Presentation assistant](https://www.jetbrains.com/idea/guide/tutorials/presenting/presentation-assistant/).
+This adds a hovering window which displays the key combination you just used. It is really helpful when sharing your screen with others (when
+pairing, for example). It can also be used as additional feedback to simply remind yourself of what you just did.
+
 
 # License
 The example code is published under the [MIT License](LICENSE.md).
