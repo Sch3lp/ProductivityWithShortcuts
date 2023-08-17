@@ -1,0 +1,29 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "Sch3lp",
+      "name": "Tim Schraepen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/648703?v=4",
+      "profile": "http://sch3lp.github.io",
+      "contributions": [
+        "content",
+        "code",
+        "design",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "ProductivityWithShortcuts",
+  "projectOwner": "Sch3lp"
+}
