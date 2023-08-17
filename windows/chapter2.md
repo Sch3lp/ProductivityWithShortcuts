@@ -212,5 +212,7 @@ to browse the methods of the superclass as well.
 Let's open `RealBall.java`, and try to find out if this class has its own `equals` and `hashcode` implementations, or wether makes use of
 its superclass implementations.
 
+---
+
 [_Next Chapter_](chapter3.md)
 [_Back to outline_](outline.md)

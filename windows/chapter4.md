@@ -36,5 +36,7 @@ Instead, first select all the thundercats' names (the strings), then press ![Win
 You might have to repeat the ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> combination, because IntelliJ's auto-formatting tends to kick in
 sometimes.
 
+---
+
 [_Next Chapter_](chapter5.md)
 [_Back to outline_](outline.md)

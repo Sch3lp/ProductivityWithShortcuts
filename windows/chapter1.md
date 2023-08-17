@@ -80,6 +80,7 @@ Try ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>z</kbd> and see
 
 Keep this strange behavior in mind when you work in IntelliJ, or in another editor that doesn't have ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>y</kbd> for _Redo_ :)
 
+---
 
 [_Next Chapter_](chapter2.md)  
 [_Back to outline_](outline.md)

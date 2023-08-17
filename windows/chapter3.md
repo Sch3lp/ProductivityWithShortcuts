@@ -37,5 +37,7 @@ Then apply the same pattern to `yewwww` but instead of a `"`, type a `(`.Then ap
 
 This feature really shines in combination with multi-cursor (which we'll discuss in detail later on).
 
+---
+
 [_Next Chapter_](chapter4.md)
 [_Back to outline_](outline.md)
