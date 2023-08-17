@@ -67,7 +67,7 @@ The mac and windows logo icons used are under the [Creative Common License (Attr
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="http://sddevelopment.be/"><img src="https://avatars.githubusercontent.com/u/25401297?v=4?s=100" width="100px;" alt="Stijn Dejongh"/><br /><sub><b>Stijn Dejongh</b></sub></a><br /><a href="#content-stijn-dejongh" title="Content">🖋</a> <a href="#design-stijn-dejongh" title="Design">🎨</a> <a href="https://github.com/Sch3lp/ProductivityWithShortcuts/commits?author=stijn-dejongh" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://sddevelopment.be/"><img src="https://avatars.githubusercontent.com/u/25401297?v=4?s=100" width="100px;" alt="Stijn Dejongh"/><br /><sub><b>Stijn Dejongh</b></sub></a><br /><a href="#content-stijn-dejongh" title="Content">🖋</a> <a href="#design-stijn-dejongh" title="Design">🎨</a> <a href="https://github.com/Sch3lp/ProductivityWithShortcuts/commits?author=stijn-dejongh" title="Documentation">📖</a> <a href="https://github.com/Sch3lp/ProductivityWithShortcuts/commits?author=stijn-dejongh" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
