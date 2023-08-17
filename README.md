@@ -2,7 +2,7 @@
 Code with exercises to learn shortcuts and their associated thinking patterns
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## What you'll learn
@@ -64,11 +64,11 @@ The mac and windows logo icons used are under the [Creative Common License (Attr
 <table>
   <tr>
     <td align="center"><a href="http://sch3lp.github.io"><img src="https://avatars.githubusercontent.com/u/648703?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tim Schraepen</b></sub></a></td>
-    <td align="center"><a href="https://github.com/ventouristeam"><img src="https://avatars.githubusercontent.com/u/15155026?v=4?s=100" 
-width="100px;" alt=""/><br /><sub><b>Team Ventouris</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/lennehendrickx"><img src="https://avatars.githubusercontent.com/u/353969?v=4?s=100" width="100px;" alt=""/><br /><sub><b> Avatar
-Lenne Hendrickx</b></sub></a></td>
+    <td align="center"><a href="https://github.com/ventouristeam"><img src="https://avatars.githubusercontent.com/u/15155026?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Team Ventouris</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/lennehendrickx"><img src="https://avatars.githubusercontent.com/u/353969?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lenne Hendrickx</b></sub></a></td>
     <td align="center"><a href="https://github.com/Jooones"><img src="https://avatars.githubusercontent.com/u/10074080?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jonathan Vanoverloop</b></sub></a></td>
+    <td align="center"><a href="http://sddevelopment.be/"><img src="https://avatars.githubusercontent.com/u/25401297?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stijn Dejongh</b></sub></a></td>
+
   </tr>
 </table>
 <!-- markdownlint-restore -->
