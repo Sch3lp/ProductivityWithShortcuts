@@ -203,6 +203,10 @@ class.
 To navigate to the suspicious method: paste the name we copied from the stacktrace into the method list popup window.
 You can then press ![Windows](icons/glyph-windows-20.png)<kbd>Enter</kbd> to navigate to that method.
 
+> **TIP:**    
+> You can also use the <kbd>ctrl</kbd> + <kbd>F12</kbd> shortcut to get a quick overview of the contents of a file.
+> This works well even in non-Java files. As an example, try out the combination inside the source code of this text (`chapter2.md`)
+  
 ### Quick check equals impl
 
 Let's imagine we want to write a comparator for some object, or want to use it in a Set. You'll want to take a look at that objects `equals()` implementation. In case the object is filled to the brim with other methods, 
