@@ -8,6 +8,29 @@
   "commitConvention": "angular",
   "contributors": [
     {
+      "login": "Sch3lp",
+      "name": "Tim Schraepen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/648703?v=4",
+      "profile": "http://sch3lp.github.io",
+      "contributions": [
+        "content",
+        "code",
+        "design",
+        "doc"
+      ]
+    },
+    {
+      "login": "stijn-dejongh",
+      "name": "Stijn Dejongh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25401297?v=4",
+      "profile": "http://sddevelopment.be/",
+      "contributions": [
+        "content",
+        "design",
+        "doc",
+        "code"
+    },
+    {   
       "login": "Jooones",
       "name": "Jonathan Vanoverloop",
       "avatar_url": "https://avatars.githubusercontent.com/u/10074080?v=4",

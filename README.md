@@ -1,15 +1,9 @@
 # ProductivityWithShortcuts
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-Code with exercises to learn shortcuts and their associated thinking patterns
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+Code with exercises to learn shortcuts and their associated thinking patterns
 
 ## What you'll learn
 In this tutorial series, you will learn:
@@ -70,6 +64,8 @@ The mac and windows logo icons used are under the [Creative Common License (Attr
 <table>
   <tbody>
     <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://sch3lp.github.io"><img src="https://avatars.githubusercontent.com/u/648703?v=4?s=100" width="100px;" alt="Tim Schraepen"/><br /><sub><b>Tim Schraepen</b></sub></a><br /><a href="#content-Sch3lp" title="Content">🖋</a> <a href="https://github.com/Sch3lp/ProductivityWithShortcuts/commits?author=Sch3lp" title="Code">💻</a> <a href="#design-Sch3lp" title="Design">🎨</a> <a href="https://github.com/Sch3lp/ProductivityWithShortcuts/commits?author=Sch3lp" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://sddevelopment.be/"><img src="https://avatars.githubusercontent.com/u/25401297?v=4?s=100" width="100px;" alt="Stijn Dejongh"/><br /><sub><b>Stijn Dejongh</b></sub></a><br /><a href="#content-stijn-dejongh" title="Content">🖋</a> <a href="#design-stijn-dejongh" title="Design">🎨</a> <a href="https://github.com/Sch3lp/ProductivityWithShortcuts/commits?author=stijn-dejongh" title="Documentation">📖</a> <a href="https://github.com/Sch3lp/ProductivityWithShortcuts/commits?author=stijn-dejongh" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Jooones"><img src="https://avatars.githubusercontent.com/u/10074080?v=4?s=100" width="100px;" alt="Jonathan Vanoverloop"/><br /><sub><b>Jonathan Vanoverloop</b></sub></a><br /><a href="#content-Jooones" title="Content">🖋</a> <a href="https://github.com/Sch3lp/ProductivityWithShortcuts/commits?author=Jooones" title="Documentation">📖</a></td>
     </tr>
   </tbody>
@@ -85,12 +81,6 @@ The mac and windows logo icons used are under the [Creative Common License (Attr
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
