@@ -7,7 +7,7 @@ This is probably the most powerful, and useful, feature any text editor can have
 features. Let's take a moment to compose ourselves, make sure we're wide awake for this chapter, and dive into the wonderful world of multi-line
 editing.
 
-## Toggle Column Mode ![Mac](./icons/glyph-apple-32.png)`alt+shift+insert`
+## Toggle Column Mode ![Mac](./icons/glyph-apple-32.png)<kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd>
 
 ### Part 1
 
@@ -17,57 +17,57 @@ Let's open `Chapter8`. The `output` variable contains a long string concatenatio
 * the `+` is missing to actually DO the concatenation
 * and there's a space missing at the end of every string
 
-You could put your cursor at the beginning of the second line, type a `+`, and then press <kbd>&#8595;</kbd> and <kbd>&#8984;</kbd> + <kbd>&#8592;</kbd>,
+You could put your cursor at the beginning of the second line, type a `+`, and then press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8595;</kbd> and ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>&#8592;</kbd>,
 and type a `+` again. Now you could repeat that process for every line, but there's an easier way.
 
 Since all the strings are lined up perfectly, wouldn't it be easier if we could first put a bunch of cursors in front of every line, and then just
 type `+`? Let's try to do just that.
 
 First position your cursor at the **beginning** of the second string (`"one hell of a"`).
-While watching the bottom right of your screen press <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd> once.
+While watching the bottom right of your screen press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd> once.
 You should see the word `Column` appear next to `UTF-8`. This means you have just toggled on `Column Mode`.
 
-Now, hold down <kbd>shift</kbd> and press <kbd>&#8595;</kbd> until you've reached the last string (`"of column mode"`). There
+Now, hold down ![Mac](./icons/glyph-apple-20.png)<kbd>shift</kbd> and press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8595;</kbd> until you've reached the last string (`"of column mode"`). There
 should be a cursor blinking at the beginning of every line. It might look like one giant cursor, but it is in fact a bunch of them.
 
 Now simply type a `+` and be amazed.
 
-Exit out of your multi-cursors by pressing <kbd>Escape</kbd>. Exit out of _Column Mode_ by pressing <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd> again.
+Exit out of your multi-cursors by pressing ![Mac](./icons/glyph-apple-20.png)<kbd>Escape</kbd>. Exit out of _Column Mode_ by pressing ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd> again.
 The word `Column` should no longer appear in the bottom right, indicating you have indeed exited `column select mode`.
 
 ### Part 2
-Let's undo our changes by pressing <kbd>&#8984;</kbd> + <kbd>Z</kbd> and take a different approach. Notice
-how using <kbd>&#8984;</kbd> + <kbd>Z</kbd> once puts the multiple cursors back.
+Let's undo our changes by pressing ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>Z</kbd> and take a different approach. Notice
+how using ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>Z</kbd> once puts the multiple cursors back.
 
 Now, what we really want is a `+` at the **end** of every string, and to add a space inside all the strings.
 Here is how you could do that.
 
 Instead of putting your cursor at the beginning of the second line, put it at the beginning of the **first** line (`"This sure is"`).
 
-Toggle _Column Mode_ again with <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd>, and select all the lines again by repeatedly
-pressing <kbd>&#8595;</kbd> until you've reached the second to last string.
+Toggle _Column Mode_ again with ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd>, and select all the lines again by repeatedly
+pressing ![Mac](./icons/glyph-apple-20.png)<kbd>&#8595;</kbd> until you've reached the second to last string.
 
-Now press <kbd>&#8984;</kbd> + <kbd>&#8594;</kbd> . Notice how the cursors are all at different ending positions.
+Now press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>&#8594;</kbd> . Notice how the cursors are all at different ending positions.
 
-First let's add the spaces so our strings aren't pressed together as much. Move your cursor inside of the string by pressing <kbd>&#8592;</kbd>
-once. Then type a <kbd>space</kbd>.
+First let's add the spaces so our strings aren't pressed together as much. Move your cursor inside of the string by pressing ![Mac](./icons/glyph-apple-20.png)<kbd>&#8592;</kbd>
+once. Then type a ![Mac](./icons/glyph-apple-20.png)<kbd>space</kbd>.
 
-Then press <kbd>End</kbd> again and type a <kbd>+</kbd>. <kbd>Escape</kbd> out of the multi-cursor and disable _Column Mode_ by
-pressing <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd>.
+Then press ![Mac](./icons/glyph-apple-20.png)<kbd>End</kbd> again and type a ![Mac](./icons/glyph-apple-20.png)<kbd>+</kbd>. ![Mac](./icons/glyph-apple-20.png)<kbd>Escape</kbd> out of the multi-cursor and disable _Column Mode_ by
+pressing ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd>.
 
 This is a great feature when all the lines you want to edit are directly underneath each other. However, that won't always be the case.
 Let's take a look at how we can cope with those situations.
 
-## ![Mac](./icons/glyph-apple-32.png)`alt+j`, ![Mac](./icons/glyph-apple-32.png)`alt+shift+j` and ![Mac](./icons/glyph-apple-32.png)`ctrl+alt+shift+j`
+## ![Mac](./icons/glyph-apple-32.png)<kbd>&#8963;</kbd> + <kbd>g</kbd>, ![Mac](./icons/glyph-apple-32.png)<kbd>&#8963;</kbd> + <kbd>shift</kbd> + <kbd>g</kbd> and ![Mac](./icons/glyph-apple-32.png)<kbd>&#8984;</kbd> + <kbd>&#8963;</kbd> + <kbd>g</kbd>
 
 In `Chapter8` there are two methods that need some fixing. They both tried to use a `StringBuilder` but seemed to have forgotten to use
 the `append()` method. We can't use _Column Mode_ because the same mistake is repeated in a different method and there are lines in between that we
 don't want to put a cursor at.
 
-We can, however, use <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> to add a cursor to a _Find buffer_ (<kbd>F3</kbd> and <kbd>&#8963; ctrl</kbd> +
+We can, however, use ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> to add a cursor to a _Find buffer_ (![Mac](./icons/glyph-apple-20.png)<kbd>F3</kbd> and ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963; ctrl</kbd> +
 <kbd>F3</kbd>).  
 Take a moment to think about what selection you would want to _Find_ in that class.
-First, try and see what would be included by pressing <kbd>&#8984;</kbd> + <kbd>F3</kbd> on the following selections: `"`, `.`, `."`.
+First, try and see what would be included by pressing ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>F3</kbd> on the following selections: `"`, `.`, `."`.
 
 > [!TIP]
 > Spoiler:
@@ -75,28 +75,28 @@ First, try and see what would be included by pressing <kbd>&#8984;</kbd> + <kbd>
 > - `.` won't be good either, because we don't want to include the `.toString()`.
 > - `."` however is a near perfect fit.
 
-So let's select the first `."` at `21:17` and press <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> once and see what happens.
-Now repeat <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> until you've selected all of the occurrences.
+So let's select the first `."` at `21:17` and press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> once and see what happens.
+Now repeat ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> until you've selected all of the occurrences.
 You'll notice that the last occurrence is working code, and we don't want to change that last one. So
-press <kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>g</kbd> to undo that last `add to cursor` selection.
+press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>g</kbd> to undo that last `add to cursor` selection.
 
 Then let's fix the code by typing `append` after the `.`. Don't exit out of your multi-cursor just yet.
 
 Remember how in [Chapter 3](./chapter3.md) we learned about IntelliJ's _Wrapping_ feature?
 Maybe you also recall how we said that it was gonna shine in this chapter?
 
-If you haven't already, enable Wrapping with <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>A</kbd>, `smart braces`, `enter`.
+If you haven't already, enable Wrapping with ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>A</kbd>, `smart braces`, `enter`.
 
-From the multi-cursors positioned after the `append` you just typed, press <kbd>shift</kbd> + <<kbd>&#8984;</kbd> + <kbd>&#8595;</kbd> to select all the
+From the multi-cursors positioned after the `append` you just typed, press ![Mac](./icons/glyph-apple-20.png)<kbd>shift</kbd> + <<kbd>&#8984;</kbd> + <kbd>&#8595;</kbd> to select all the
 strings, and then press `(`.
 
-As an alternative to repeatedly pressing <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>, and if you're 100% sure that you won't include too much, you
-can also press <kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> and add **all** occurrences to your cursors in one go.
+As an alternative to repeatedly pressing ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>, and if you're 100% sure that you won't include too much, you
+can also press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> and add **all** occurrences to your cursors in one go.
 
-Undo <kbd>&#8984;</kbd> + <kbd>z</kbd> your corrections and try it out.
+Undo ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>z</kbd> your corrections and try it out.
 
-Notice how <kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>g</kbd> still deselects the last occurrence. This is
-because <kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> is merely a repeated <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>.
+Notice how ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>g</kbd> still deselects the last occurrence. This is
+because ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> is merely a repeated ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>.
 
 > **NOTE:**  
 > Using this key combination often is also a great way to train your manual dexterity.
@@ -106,29 +106,29 @@ Now that we've seen the basics of creating and using multiple cursors, let's try
 We will see how using multiple selections can make your developer life so much easier.
 
 ### Creating a TestBuilder
-In IntelliJ, you can create a Unit Test for a class by pressing <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>t</kbd> from the class you're
+In IntelliJ, you can create a Unit Test for a class by pressing ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>t</kbd> from the class you're
 currently editing.
 
-We will now use this to our advantage while creating a TestBuilder. Open `PersonTO` with <kbd>&#8984;</kbd> + <kbd>o</kbd>, and
-press <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>t</kbd>.
+We will now use this to our advantage while creating a TestBuilder. Open `PersonTO` with ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>o</kbd>, and
+press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>t</kbd>.
 
-Overwrite the class name from `PersonTOTest` to `PersonTOTestBuilder` and press <kbd>Enter</kbd>.
+Overwrite the class name from `PersonTOTest` to `PersonTOTestBuilder` and press ![Mac](./icons/glyph-apple-20.png)<kbd>Enter</kbd>.
 
-You might want to get rid of unnecessary `org.junit.Assert.*` imports by pressing <kbd>&#8963; ctrl</kbd> + <kbd>&#8997;</kbd> + <kbd>o</kbd>
+You might want to get rid of unnecessary `org.junit.Assert.*` imports by pressing ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963; ctrl</kbd> + <kbd>&#8997;</kbd> + <kbd>o</kbd>
 to _Organize Imports_.
 
-Go back <kbd>&#8984;</kbd> + <kbd>[</kbd> to the `PersonTO`, and copy all private fields over to the `PersonTOTestBuilder`.
+Go back ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>[</kbd> to the `PersonTO`, and copy all private fields over to the `PersonTOTestBuilder`.
 
-Create an empty constructor for the TestBuilder with <kbd>&#8984;</kbd> + <kbd>n</kbd>.
-Press <kbd>&#8593;</kbd> and <kbd>ctrl</kbd> + <kbd>enter</kbd> to choose `empty constructor` from the generation menu.
+Create an empty constructor for the TestBuilder with ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>n</kbd>.
+Press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8593;</kbd> and <kbd>ctrl</kbd> + <kbd>enter</kbd> to choose `empty constructor` from the generation menu.
 
 Create a `build()` method that returns a `PersonTO`.
 
 Now, while still inside the `PersonTOTestBuilder`, generate setters for all the private fields we just copied from `PersonTO`:
-Press <kbd>&#8984;</kbd> + <kbd>n</kbd>, select `Setters`, then press <kbd>shift</kbd> + <kbd>&#8984;</kbd> + <kbd>&#8595;</kbd> to
-select all the fields, and press <kbd>ctrl</kbd> + <kbd>Enter</kbd>.
+Press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>n</kbd>, select `Setters`, then press ![Mac](./icons/glyph-apple-20.png)<kbd>shift</kbd> + <kbd>&#8984;</kbd> + <kbd>&#8595;</kbd> to
+select all the fields, and press ![Mac](./icons/glyph-apple-20.png)<kbd>ctrl</kbd> + <kbd>Enter</kbd>.
 
-Using <kbd>Enter</kbd> would also work, but it is advisable to use <kbd>ctrl</kbd> + <kbd>Enter</kbd> when in a separate window, to
+Using <kbd>Enter</kbd> would also work, but it is advisable to use ![Mac](./icons/glyph-apple-20.png)<kbd>ctrl</kbd> + <kbd>Enter</kbd> when in a separate window, to
 press the highlighted button, and perform the _Default action_.
 
 > **TIP:**  
@@ -136,41 +136,41 @@ press the highlighted button, and perform the _Default action_.
 
 Now we've got a bunch of setters in our builder... That's great, but we also want the methods to be chainable.
 
-Select the "`void set`" part of the first setter, and press <kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>.
+Select the "`void set`" part of the first setter, and press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>.
 Type `PersonTOTestBuilder` (because we want a _Fluent API_, using chainable interfaces).
 
 Now we've got some options with our method names. We either want all of our configurable methods to have the `with` prefix, or you want them
 lowercased.
 
 We can lowercase all of our methods by selecting the first letter: from your multi-cursors position
-press <kbd>shift</kbd> + <kbd>&#8594;</kbd>. Then press <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>u</kbd> to toggle lower or upper
+press ![Mac](./icons/glyph-apple-20.png)<kbd>shift</kbd> + <kbd>&#8594;</kbd>. Then press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>u</kbd> to toggle lower or upper
 case.
 
 Now the only thing we need to do is to change the return statement to: `return this;`.
-Let's press <kbd>&#8595;</kbd>, then press <kbd>shift</kbd> + <kbd>enter</kbd>, and type `return this;`
+Let's press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8595;</kbd>, then press ![Mac](./icons/glyph-apple-20.png)<kbd>shift</kbd> + <kbd>enter</kbd>, and type `return this;`
 
 There you go! We managed to create a TestBuilder in less than a minute of work.
 Time to be pleased with ourselves and fetch a hot beverage.
 
 ### Testing Enum Lists
 
-Open `Status.java`, and use <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> on `NOT_REALLY` until you've got cursors on all the enums with that
+Open `Status.java`, and use ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> on `NOT_REALLY` until you've got cursors on all the enums with that
 status. Now try to select the Statuses themselves.
 
 > **TIP:**  
-> You might have to disable `CamelHumps` with <kbd>&#8984;</kbd> + <kbd>a</kbd> to help with the selection.
+> You might have to disable `CamelHumps` with ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>a</kbd> to help with the selection.
 
-Copy (&#8984; + <kbd>c</kbd>) these.
-Now navigate back to `StatusTest.java`. Before you paste, enable _Column Mode_ (<kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd>), make sure there's a bunch of empty lines, and paste your
+Copy (![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>c</kbd>) these.
+Now navigate back to `StatusTest.java`. Before you paste, enable _Column Mode_ (![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd>), make sure there's a bunch of empty lines, and paste your
 buffered lines to their destination.
 By using _Column Mode_, we ensure our multiple cursors remain active and usable after pasting.
 
 With our multi-cursors still there, put a `,` behind every copied enum value,
-and press <kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> to join all the lines.
+and press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> to join all the lines.
 
 Now: complete the `yaReallyStatuses_ContainOnlyDoneAndDunno` test on your own.
 > **TIP:**  
-> <kbd>&#8984;</kbd> + <kbd>N</kbd> is context sensitive, meaning IntelliJ will know what you want because you're in a Unit Test.
+> ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>N</kbd> is context sensitive, meaning IntelliJ will know what you want because you're in a Unit Test.
 
 ### Making csv lists from XML
 Here's an excerpt of an XML file containing a bunch of people from DC's Batman universe.

@@ -54,6 +54,8 @@ press ![Mac](./icons/glyph-apple-20.png)<kbd>shift</kbd> + <kbd>&#8984;</kbd> + 
 Happy editing!
 
 ---
+  
 
-[_Next Chapter_](chapter6.md)
+[_Next Chapter_](chapter6.md)  
+
 [_Back to outline_](outline.md)

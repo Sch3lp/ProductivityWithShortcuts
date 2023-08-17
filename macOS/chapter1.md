@@ -55,6 +55,8 @@ Now empty your selection (select nothing), and press <kbd>&#8963;</kbd> + <kbd>&
 
 The default `undo` and `redo` keyboard shortcuts on MacOS work the same over most applications. The weird behavior described in the windows section is
 not relevant for Mac users. Use ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>z</kbd> to undo, and <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>z</kbd> to redo.
+  
 
 [_Next Chapter_](chapter2.md)  
+
 [_Back to outline_](outline.md)

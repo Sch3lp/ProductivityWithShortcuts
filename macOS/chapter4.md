@@ -38,6 +38,8 @@ You might have to repeat the ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963;</kbd
 sometimes.
 
 ---
+  
 
-[_Next Chapter_](chapter5.md)
+[_Next Chapter_](chapter5.md)  
+
 [_Back to outline_](outline.md)
