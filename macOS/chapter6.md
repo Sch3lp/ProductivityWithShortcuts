@@ -5,7 +5,7 @@ We are but human. That means we tend to mess up from time to time.
 Knowing how to quickly fix mistakes you make is a tremendous boon to your programming productivity.
 Luckily, our IDE can help us fixing some of the smaller mistakes we often make.
 
-## IntelliJ's Auto-correct ![Windows](icons/glyph-windows-32.png)`ctrl+shift+enter`
+## IntelliJ's Auto-correct ![Mac](./icons/glyph-apple-32.png)`ctrl+shift+enter`
 
 Let's open Chapter6.java (<kbd>&#8984;</kbd> + <kbd>o</kbd>) , a class with many mistakes (and (a hell of (a lot of)) brackets).
 
@@ -23,7 +23,7 @@ statements.
 
 Try pressing <kbd>&#8963;</kbd> + <kbd>    &uArr;</kbd> + <kbd>&crarr;︎</kbd> anyways and see what happens.
 
-## Autocomplete ![Windows](icons/glyph-windows-32.png)`ctrl+space` vs. ![Windows](icons/glyph-windows-32.png)`ctrl+shift+space`
+## Autocomplete ![Mac](./icons/glyph-apple-32.png)`ctrl+space` vs. ![Mac](./icons/glyph-apple-32.png)`ctrl+shift+space`
 
 ### Autocomplete basics
 Open `Transformers.java`, a class with a lot of action in it. To quickly navigate to the missing constructor argument, use <kbd>F2</kbd>.
@@ -58,7 +58,7 @@ with <kbd>&#8963;</kbd> + <kbd>Z</kbd> and retry the autocompletion using <kbd>T
 
 Repeat the process with the other confirmation methods listed above.
 
-## _QuickFix_ (:bulb:) ![Windows](icons/glyph-windows-32.png)`alt+enter`
+## _QuickFix_ (:bulb:) ![Mac](./icons/glyph-apple-32.png)`alt+enter`
 
 IntelliJ's QuickFix is a powerful tool that can save you a lot of time and effort.
 In fact, it is so powerful that it might as well be magic.
@@ -77,7 +77,7 @@ issue at hand. Use cases include, but are not limited to:
 
 QuickFix is so useful that it's probably the only IntelliJ shortcut you really need to remember, if you want to be lazy about it.
 
-## Creating _stuff_ ![Windows](icons/glyph-windows-32.png)`alt+insert`
+## Creating _stuff_ ![Mac](./icons/glyph-apple-32.png)`alt+insert`
 The "Generate" action in IntelliJ is a powerful feature that allows you to quickly create code constructs such as constructors, methods, and
 getters/setters. It saves you a lot of time and effort by automatically generating boilerplate code for you, based on the parameters you provide.
 You can access the Generate action by pressing <kbd>&#8964;</kbd> + <kbd>N</kbd> (`Generate...`) in the editor window. This action is particularly
@@ -90,7 +90,7 @@ Try out these actions using the <kbd>&#8964;</kbd> + <kbd>N</kbd> shortcut:
 * Create a new class from the `1: Project` _Tool Window_.
 * Create a new constructor in that class from the editor.
 
-## Deleting _stuff_ ![Windows](icons/glyph-windows-32.png)`alt+delete`
+## Deleting _stuff_ ![Mac](./icons/glyph-apple-32.png)`alt+delete`
 Programming is not only about creating new concepts and abstractions but also about cleaning up and getting rid of old or unnecessary code.
 Fortunately, IntelliJ makes deleting code just as easy as creating it.
 
@@ -112,7 +112,7 @@ Your turn! Use this shortcut to:
 > This is sometimes called the "nuke it" option, and it can be very handy when you want to get rid of a method that is used in multiple places.
 > However, be sure to use this option with caution, as it can have unintended consequences if you're not careful.
 
-## View JavaDoc ![Windows](icons/glyph-windows-32.png)`ctrl+q`
+## View JavaDoc ![Mac](./icons/glyph-apple-32.png)`ctrl+q`
 Open `Transformers.java`, and move your cursor to `Autobot`.
 
 Press <kbd>F1</kbd> to view the JavaDoc for the `Autobot` class. Press <kbd>Esc</kbd> to exit the window.
@@ -125,7 +125,7 @@ statement using autocompletion (either by typing <kbd>.</kbd> or by pressing <kb
 
 While still in the autocompletion suggestion box, navigate to the `.toString()` option and press <kbd>F1</kbd> to read the associated JavaDoc.
 
-## View parameters ![Windows](icons/glyph-windows-32.png)`ctrl+p`
+## View parameters ![Mac](./icons/glyph-apple-32.png)`ctrl+p`
 If you are ever in doubt on which parameters to provide to a method, press <kbd>&#8984;</kbd> + <kbd>P</kbd>
 while your cursor is inside the brackets of a method invocation statement. IntelliJ will tell you what parameterization is needed, and even
 offer a list of alternative invocation options.

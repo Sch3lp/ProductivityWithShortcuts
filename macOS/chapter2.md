@@ -4,18 +4,19 @@
 
 ## Word-skipping ![Mac](./icons/glyph-apple-32.png) <kbd>&#8997;</kbd> + arrows
 
-Open `Chapter2.java`, and place your cursor in front of the _"The"_ of the popular phrase, and tap <kbd>&#8997;</kbd> + <kbd>&#8594;</kbd> 8 times.
+Open `Chapter2.java`, and place your cursor in front of the _"The"_ of the popular phrase, and tap ![Mac](./icons/glyph-apple-20.png)<kbd>&#8997;</kbd> + <kbd>&#8594;</kbd> 8 times.
 You should now have your cursor at the beginning of the word _"camel"_.
 
 ## Begin/End of Line ![Mac](./icons/glyph-apple-32.png)<kbd>&#8984;</kbd> + <kbd>&#8594;</kbd>/<kbd>&#8592;</kbd>
 
-Still in `Chapter2.java`, place your cursor at the start of the popular phrase, and press <kbd>&#8984;</kbd> + <kbd>&#8594;</kbd>.
-Press <kbd>&#8984;</kbd> + <kbd>&#8592;</kbd> once, look at your cursors position, then press <kbd>&#8984;</kbd> + <kbd>&#8592;</kbd> again and see
+Still in `Chapter2.java`, place your cursor at the start of the popular phrase, and press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>&#8594;</kbd>.
+Press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>&#8592;</kbd> once, look at your cursors position, then press <kbd>&#8984;</kbd> + <kbd>&#8592;</kbd> again and see
 what
-happens. Press <kbd>&#8984;</kbd> + <kbd>&#8592;</kbd> one more time.
+happens. Press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>&#8592;</kbd> one more time.
 
-If you would like to see a stroboscopic effect, put your cursor at the beginning of the word _"return"_, and hold down <kbd>shift</kbd> + <kbd>
+If you would like to see a stroboscopic effect, put your cursor at the beginning of the word _"return"_, and hold down ![Mac](./icons/glyph-apple-20.png)<kbd>shift</kbd> + <kbd>
 &#8984;</kbd> + <kbd>&#8592;</kbd>.  
+
 Enjoy annoying anyone that might be watching over your shoulder.
 
 ## CamelHumps (+ how to toggle)
@@ -25,11 +26,11 @@ Enjoy annoying anyone that might be watching over your shoulder.
 
 In `Chapter2.java`, put your cursor at the beginning of the method `theQuickBrownFoxJumpedOverTheLazyCamel`.
 
-Try to use _Skip Word_ with <kbd>&#8997;</kbd> + <kbd>&#8594;</kbd> on that method.
+Try to use _Skip Word_ with ![Mac](./icons/glyph-apple-20.png)<kbd>&#8997;</kbd> + <kbd>&#8594;</kbd> on that method.
 
 Depending on your CamelHumps setting, your cursor either ended up on the _"Q"_ or it skipped the entire method name and ended up on the _"("_.
 
-Return to the beginning of the method name and press <kbd>&#8984;</kbd> + <kbd>a</kbd>, then type `CamelHump`. There used to be a setting
+Return to the beginning of the method name and press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>a</kbd>, then type `CamelHump`. There used to be a setting
 named `Smart Keys: Use "CamelHumps" words` with a toggle indicator, but this disappeared since some new release around 2019.
 
 Instead if you want to do something using the alternative CamelHumps mode, there **is** an action in the action menu for that.
@@ -40,21 +41,22 @@ They all appear when you type CamelHumps and IntelliJ remembers your last action
 
 > **TIP:**  
 > Other tools, like SublimeText, have different key combinations to skip the entire word (<kbd>&#8963;</kbd> + <kbd>&#8594;</kbd>), or skip based on
-> CamelCasing (<kbd>&#8997;</kbd> + <kbd>&#8594;</kbd>).
+> CamelCasing (![Mac](./icons/glyph-apple-20.png)<kbd>&#8997;</kbd> + <kbd>&#8594;</kbd>).
 
 ## Jumping methods ![Mac](./icons/glyph-apple-32.png)<kbd>&#8963;</kbd> + <kbd>Shift</kbd> + <kbd>&#8595;</kbd>/<kbd>&#8593;</kbd>
 
 In `Chapter2.java`, place your cursor at the `theQuickBrownFoxJumpedOverTheLazyCamel` method.  
-Press <kbd>&#8963;</kbd> + <kbd>Shift</kbd> + <kbd>&#8595;</kbd> a few times and see what happens.  
-Now use <kbd>&#8963;</kbd> + <kbd>Shift</kbd> + <kbd>&#8593;</kbd> to go back the way you came.
+Press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963;</kbd> + <kbd>Shift</kbd> + <kbd>&#8595;</kbd> a few times and see what happens.  
+Now use ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963;</kbd> + <kbd>Shift</kbd> + <kbd>&#8593;</kbd> to go back the way you came.
 
 ## Jump to "error" ![Mac](./icons/glyph-apple-32.png)<kbd>F2</kbd>
 
-Move to the top of the file with <kbd>Fn</kbd> + <kbd>&#8984</kbd> + <kbd>&#8592;</kbd> and from there press <kbd>F2</kbd>. This should navigate
+Move to the top of the file with ![Mac](./icons/glyph-apple-20.png)<kbd>Fn</kbd> + <kbd>&#8984;</kbd> + <kbd>&#8592;</kbd> and from there press 
+<kbd>F2</kbd>. This should navigate
 your
 cursor to the class named `Chapter2` because IntelliJ marks it as being _unused_.
 
-If you keep pressing <kbd>F2</kbd> it should keep cycling your cursor over the _unused_ warnings. In between the methods `jump()` and `camel()`,
+If you keep pressing ![Mac](./icons/glyph-apple-20.png)<kbd>F2</kbd> it should keep cycling your cursor over the _unused_ warnings. In between the methods `jump()` and `camel()`,
 paste the following:
 
 ```java
@@ -63,7 +65,7 @@ privet String kakdilla(){
 }
 ```
 
-Move to the top of the file again, and press <kbd>F2</kbd> once again.
+Move to the top of the file again, and press ![Mac](./icons/glyph-apple-20.png)<kbd>F2</kbd> once again.
 Notice how the cursor now first jumps to the actual compilation error (_`privet` cannot be resolved_).
 
 > **NOTE:**  
@@ -76,12 +78,12 @@ It is a big timesaver when attempting to follow the logic of any given program.
 
 Right now, there's a typo in both the `EpicJumper.java` and `MehJumper.java` classes. Let's fix that.
 
-Go to `Chapter2.jumpUsingStrategy()` and place your cursor on the `jump()` method call. Press <kbd>&#8984;</kbd> <kbd>b</kbd>.
+Go to `Chapter2.jumpUsingStrategy()` and place your cursor on the `jump()` method call. Press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> <kbd>b</kbd>.
 This should take you straight to the interfaces `jump()` method.
 
-Now, let's go back to where we came from. Press <kbd>&#8984;</kbd> <kbd>&#8997;</kbd> <kbd>b</kbd>. IntelliJ knows you want to __"drill down"__ into
-the actual method implementation but doesn't know which one, so it will suggest some options. Select the `MehJumper` method by pressing <kbd>
-&#8595;</kbd> and then <kbd>enter</kbd> and see where it leads you.
+Now, let's go back to where we came from. Press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> <kbd>&#8997;</kbd> <kbd>b</kbd>. IntelliJ knows you want to __"drill down"__ into
+the actual method implementation but doesn't know which one, so it will suggest some options. Select the `MehJumper` method by pressing ![Mac](./icons/glyph-apple-20.png)<kbd>
+&#8595;</kbd> and then ![Mac](./icons/glyph-apple-20.png)<kbd>enter</kbd> and see where it leads you.
 
 You can now correct the typo in the method, and move on to the next exercise.
 
@@ -92,10 +94,10 @@ messing something up). Let's repeat the previous exercise!
 If you are following this tutorial in one go, and are currently at the end-position of the previous topic, you can continue onwards from
 there.
 
-Press <kbd>&#8984;</kbd> + <kbd>&#8997;</kbd> + <kbd>&#8592;</kbd> to go return to your starting position.
+Press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>&#8997;</kbd> + <kbd>&#8592;</kbd> to go return to your starting position.
 You should now be back at the `Chapter2.java` class.
 
-Now repeat the previous exercise, but pick the `EpicJumper` and also fix the typo. Then go back again using <kbd>&#8984;</kbd> + <kbd>
+Now repeat the previous exercise, but pick the `EpicJumper` and also fix the typo. Then go back again using ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>
 &#8997;</kbd> + <kbd>&#8592;</kbd>.
 
 Also try backtracking your backtrack by pressing <kbd>&#8984;</kbd> + <kbd>&#8997;</kbd> + <kbd>&#8594;</kbd>.
@@ -105,15 +107,15 @@ Also try backtracking your backtrack by pressing <kbd>&#8984;</kbd> + <kbd>&#899
 
 ## Jump to last edit position ![Mac](./icons/glyph-apple-32.png)<kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>backspace</kbd>
 
-From the end of previous exercise, make sure you're back in the `Chapter2.java` class and press <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>
+From the end of previous exercise, make sure you're back in the `Chapter2.java` class and press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>
 backspace</kbd> to return to where you were last editing. Try pressing the hotkey again and see what happens.
 
 ## Show in Project ![Mac](./icons/glyph-apple-32.png)<kbd>&#8997;</kbd> + <kbd>F1</kbd>
 
-Open `MehJumper.java` by pressing <kbd>&#8984;</kbd> + <kbd>o</kbd>, then use <kbd>&#8997;</kbd> + <kbd>F1</kbd>, <kbd>enter</kbd> to open up
+Open `MehJumper.java` by pressing ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>o</kbd>, then use <kbd>&#8997;</kbd> + <kbd>F1</kbd>, <kbd>enter</kbd> to open up
 the `Project` navigational sidebar with the `MehJumper.java` class selected.
 
-You can now use <kbd>&#8997;</kbd> + <kbd>1</kbd> (**do not press F1, we mean the actual digit**) to minimize the sidebar and move your window
+You can now use ![Mac](./icons/glyph-apple-20.png)<kbd>&#8997;</kbd> + <kbd>1</kbd> (**do not press F1, we mean the actual digit**) to minimize the sidebar and move your window
 focus back to your editor.
 
 ## More navigational goodness: code hierarchy transversal
@@ -121,15 +123,15 @@ focus back to your editor.
 Inspect the `mud` package. It's got your typical layered application where we pass around a `Ball` through all of its layers.
 In order to navigate more complex code hierarchies, play around with some of these hotkeys:
 
-Pressing <kbd>&#8997;</kbd> + <kbd>F7</kbd> will show you how the selected element is used inside your codebase.
+Pressing ![Mac](./icons/glyph-apple-20.png)<kbd>&#8997;</kbd> + <kbd>F7</kbd> will show you how the selected element is used inside your codebase.
 This shortcut works on virtually anything, be it a class, a method or a field in a separate __Tool Window__.
-As an example: open `Ball.java` using <kbd>&#8984;</kbd> + <kbd>o</kbd>, and press your arrow keys to navigate to the`getId()` method inside
+As an example: open `Ball.java` using ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>o</kbd>, and press your arrow keys to navigate to the`getId()` method inside
 this class.
-Now press <kbd>&#8997;</kbd> + <kbd>F7</kbd> and look at the bottom of your screen.
+Now press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8997;</kbd> + <kbd>F7</kbd> and look at the bottom of your screen.
 
-<kbd>&#8963;</kbd> + <kbd>&#8997;</kbd> + <kbd>h</kbd> will show you the call hierarchy leading up to the element you are currently inspecting.
-Repeat the previous step, but instead of inspecting an element's usage, press <kbd>&#8963;</kbd> + <kbd>&#8997;</kbd> + <kbd>h</kbd>.
-Navigate the element tree using the arrow keys, and select any element you wish to take a closer look at with <kbd>ctrl</kbd> + <kbd>
+![Mac](./icons/glyph-apple-20.png)<kbd>&#8963;</kbd> + <kbd>&#8997;</kbd> + <kbd>h</kbd> will show you the call hierarchy leading up to the element you are currently inspecting.
+Repeat the previous step, but instead of inspecting an element's usage, press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963;</kbd> + <kbd>&#8997;</kbd> + <kbd>h</kbd>.
+Navigate the element tree using the arrow keys, and select any element you wish to take a closer look at with ![Mac](./icons/glyph-apple-20.png)<kbd>ctrl</kbd> + <kbd>
 enter</kbd> (or <kbd>F4</kbd> if you want to navigate to the code without further ado).
 
 > **TIP:**  
@@ -138,22 +140,22 @@ enter</kbd> (or <kbd>F4</kbd> if you want to navigate to the code without furthe
 
 ### ![Mac](./icons/glyph-apple-32.png)<kbd>&#8997;</kbd> + <kbd>b</kbd>
 
-Navigate to the `return id;` line in the `Ball.java` class and put your cursor on `id`. Now press <kbd>&#8997;</kbd> + <kbd>b</kbd>
+Navigate to the `return id;` line in the `Ball.java` class and put your cursor on `id`. Now press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8997;</kbd> + <kbd>b</kbd>
 This should navigate your code editor to the instantiation of the field itself.
-Press <kbd>&#8997;</kbd> + <kbd>b</kbd> again. This time it should show a popup asking if you want to show __accessors__ of the field. Let's
+Press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8997;</kbd> + <kbd>b</kbd> again. This time it should show a popup asking if you want to show __accessors__ of the field. Let's
 go with _`Yes`_.
 
 ### Pop-up windows (but not the annoying kind)
 
 Sometimes when you are working on code, you want to quickly reference how a certain class, field or method is defined without opening a new
 workspace window.
-In order to do so, you can make use of the <kbd>&#8997;</kbd> + <kbd>space</kbd> keyboard combination to do just so.
+In order to do so, you can make use of the ![Mac](./icons/glyph-apple-20.png)<kbd>&#8997;</kbd> + <kbd>space</kbd> keyboard combination to do just so.
 
 Other useful overlay pop-ups include: the __quick documentation__ and __quick parameter definition__ shortcuts.
-Let's find out what they do! Move to any line of code, and press <kbd>&#8963;</kbd> + <kbd>j</kbd>. The overlayed information pop-up will show
+Let's find out what they do! Move to any line of code, and press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963;</kbd> + <kbd>j</kbd>. The overlayed information pop-up will show
 you relevant documentation of the selected code element.
 
-Navigate to the `return id;` line in the `Ball.java` class and put your cursor on `id` again. Pressing <kbd>&#8984;</kbd> + <kbd>p</kbd> will
+Navigate to the `return id;` line in the `Ball.java` class and put your cursor on `id` again. Pressing ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>p</kbd> will
 show you the relevant documentation for this parameter.
 As we have not written any documentation, this overlay window will be blank.
 
@@ -195,30 +197,30 @@ Here is a part of a very long stacktrace.
       at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
 ```
 
-Let's see where the NullPointer is occurring. Open `BallServiceImpl`, using <kbd>&#8984;</kbd> + <kbd>l</kbd>.
-Now use <kbd>&#8984;</kbd> + <kbd>l</kbd> and enter the desired line number (this is line nr. `18`), as the stacktrace above states the
+Let's see where the NullPointer is occurring. Open `BallServiceImpl`, using ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>l</kbd>.
+Now use ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>l</kbd> and enter the desired line number (this is line nr. `18`), as the stacktrace above states the
 error occurs on this line: `at be.swsb.productivity.chapter2.mud.service.BallServiceImpl.findBall(BallServiceImpl.java:18)`
 
-## Navigate to method ![Mac](./icons/glyph-apple-32.png)<kbd>ctrl</kbd> + <kbd>F12</kbd>
+## Navigate to method ![Mac](./icons/glyph-apple-32.png)<kbd>&#8984;</kbd> + <kbd>F12</kbd>
 
 ### Paste from stacktrace
 
 Another way of navigating to the location of the code causing our NullPointer exception, albeit less precise, is to first copy the method
 name from the stacktrace, in this case `findBall`.
-Next, open `BallServiceImpl.java`, using <kbd>&#8984;</kbd> + <kbd>o</kbd> . Now press <kbd>ctrl</kbd> + <kbd>F12</kbd>. This lists all methods
+Next, open `BallServiceImpl.java`, using ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>o</kbd> . Now press ![Mac](./icons/glyph-apple-20.png)<kbd>ctrl</kbd> + <kbd>F12</kbd>. This lists all methods
 of a class.
 To navigate to the suspicious method: paste the name we copied from the stacktrace into the method list popup window.
-You can then press <kbd>Enter</kbd> to navigate to that method.
+You can then press ![Mac](./icons/glyph-apple-20.png)<kbd>Enter</kbd> to navigate to that method.
 
 > **TIP:**    
-> You can also use the <kbd>ctrl</kbd> + <kbd>F12</kbd> shortcut to get a quick overview of the contents of a file.
+> You can also use the ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>F12</kbd> shortcut to get a quick overview of the contents of a file.
 > This works well even in non-Java files. As an example, try out the combination inside the source code of this text (`chapter2.md`)
 
 ### Quick check equals impl
 
 Let's imagine we want to write a comparator for some object, or want to use it in a Set. You'll want to take a look at that
-objects `equals()` implementation. In case the object is filled to the brim with other methods, it might be easier to tap <kbd>
-&#8984;</kbd> + <kbd>F12</kbd> to check for an `equals` method. If you can't find it on your first try, tap <kbd>&#8984;</kbd> + <kbd>F12</kbd>
+objects `equals()` implementation. In case the object is filled to the brim with other methods, it might be easier to tap ![Mac](./icons/glyph-apple-20.png)<kbd>
+&#8984;</kbd> + <kbd>F12</kbd> to check for an `equals` method. If you can't find it on your first try, tap ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>F12</kbd>
 again to browse the methods of the superclass as well.
 Let's open `RealBall.java`, and try to find out if this class has its own `equals` and `hashcode` implementations, or wether makes use of
 its superclass implementations.

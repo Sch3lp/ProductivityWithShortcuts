@@ -7,7 +7,7 @@ This is probably the most powerful, and useful, feature any text editor can have
 features. Let's take a moment to compose ourselves, make sure we're wide awake for this chapter, and dive into the wonderful world of multi-line
 editing.
 
-## Toggle Column Mode ![Windows](icons/glyph-windows-32.png)`alt+shift+insert`
+## Toggle Column Mode ![Mac](./icons/glyph-apple-32.png)`alt+shift+insert`
 
 ### Part 1
 
@@ -58,7 +58,7 @@ pressing <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd>.
 This is a great feature when all the lines you want to edit are directly underneath each other. However, that won't always be the case.
 Let's take a look at how we can cope with those situations.
 
-## ![Windows](icons/glyph-windows-32.png)`alt+j`, ![Windows](icons/glyph-windows-32.png)`alt+shift+j` and ![Windows](icons/glyph-windows-32.png)`ctrl+alt+shift+j`
+## ![Mac](./icons/glyph-apple-32.png)`alt+j`, ![Mac](./icons/glyph-apple-32.png)`alt+shift+j` and ![Mac](./icons/glyph-apple-32.png)`ctrl+alt+shift+j`
 
 In `Chapter8` there are two methods that need some fixing. They both tried to use a `StringBuilder` but seemed to have forgotten to use
 the `append()` method. We can't use _Column Mode_ because the same mistake is repeated in a different method and there are lines in between that we
