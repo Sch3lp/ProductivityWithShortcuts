@@ -15,7 +15,8 @@
       "contributions": [
         "content",
         "design",
-        "doc"
+        "doc",
+        "code"
       ]
     }
   ],
