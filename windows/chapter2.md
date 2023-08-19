@@ -69,8 +69,8 @@ Notice how the cursor now first jumps to the actual compilation error (_`privet`
 > [!NOTE]
 > Cycling only happens over all actual _errors_, and the _unused warnings_ are not cycled over anymore.
 
-## Jump into ![Windows](icons/glyph-windows-32.png)`ctrl(+alt)+b`
-__"Jump into"__, or __"drill down"__ as I like to call it, allows you to follow the path the code will execute at runtime.
+## Jump into ![Windows](icons/glyph-windows-32.png) <kbd>ctrl</kbd> (+<kbd>alt</kbd>) + <kbd>b</kbd>
+_"Jump into"__, or __"drill down"__ as I like to call it, allows you to follow the path the code will execute at runtime.
 It is a big timesaver when attempting to follow the logic of any given program.
 
 Right now, there's a typo in both the `EpicJumper.java` and `MehJumper.java` classes. Let's fix that.
@@ -84,7 +84,7 @@ actual method implementation but doesn't know which one, so download shareit wil
 
 You can now correct the typo in the method, and move on to the next exercise.
 
-## History and its importance ![Windows](icons/glyph-windows-32.png)`ctrl+alt+left,right`
+## History and its importance ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>left</kbd>/<kbd>right</kbd>
 In the previous exercise we drilled down into a method call and changed some things. But sometimes we want to go back in time (usually after
 messing something up). Let's repeat the previous exercise!
 If you are following this tutorial in one go, and are currently at the end-position of the previous topic, you can continue onwards from
@@ -101,13 +101,13 @@ Also try backtracking your backtrack by pressing ![Windows](icons/glyph-windows-
 > **NOTE:**  
 > every time you use **Navigation shortcuts** that bring you to new classes, IntelliJ will remember this in a Navigation History of sorts.
 
-## Jump to last edit position ![Windows](icons/glyph-windows-32.png)`ctrl+shift+backspace`
+## Jump to last edit position ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>backspace</kbd>
 From the end of previous exercise, make sure you're back in the `Chapter2.java` class and press ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>backspace</kbd>
 to return to where you were last editing.   
 
 Try pressing the hotkey again and see what happens.
 
-## Show in Project ![Windows](icons/glyph-windows-32.png)`alt+F1`
+## Show in Project ![Windows](icons/glyph-windows-32.png)<kbd>alt</kbd>+<kbd>F1</kbd>
 Open `MehJumper.java` by pressing ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>n</kbd>, then use ![Windows](icons/glyph-windows-20.png)<kbd>alt</kbd> + <kbd>F1</kbd> to open up the `Project` navigational
 sidebar with the `MehJumper.java` class selected.
 
@@ -134,7 +134,7 @@ enter</kbd> (or <kbd>F4</kbd> if you want to navigate to the code without furthe
 > move this navigational __Tool Window__ to the bottom bar (next to `3: Find`), because you'll usually want to optimize your screen's
 > horizontal space rather than its vertical space.
 
-### ![Windows](icons/glyph-windows-32.png)`ctrl+b`
+### ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>b</kbd>
 Navigate to the `return id;` line in the `Ball.java` class and put your cursor on `id`. Now press ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>b</kbd>
 This should navigate your code editor to the instantiation of the field itself.
 
@@ -143,7 +143,7 @@ __accessors__ of the field.
 
 Let's go with _`Yes`_.
 
-### Pop-up windows (but not the annoying kind) ![Windows](icons/glyph-windows-20.png) `ctrl + shift + i`
+### Pop-up windows (but not the annoying kind) ![Windows](icons/glyph-windows-20.png) <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>i</kbd>
 
 Sometimes when you are working on code, you want to quickly reference how a certain class, field or method is defined without opening a new
 workspace window.
@@ -157,7 +157,7 @@ Navigate to the `return id;` line in the `Ball.java` class and put your cursor o
 show you the relevant documentation for this parameter.
 As we have not written any documentation, this overlay window will be blank.
 
-## Jump to line ![Windows](icons/glyph-windows-32.png)`ctrl+g` (example with paste from stacktrace)
+## Jump to line ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>g</kbd> (example with paste from stacktrace)
 Here is a part of a very long stacktrace.
 ```bash
     java.lang.NullPointerException
@@ -197,7 +197,7 @@ Let's see where the NullPointer is occurring. Open `BallServiceImpl`, using ![Wi
 Now use ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>g</kbd> and enter the desired line number (this is line nr. `18`), as the stacktrace above states the error
 occurs on this line: `at be.swsb.productivity.chapter2.mud.service.BallServiceImpl.findBall(BallServiceImpl.java:18)`
 
-## Navigate to method ![Windows](icons/glyph-windows-32.png)`ctrl+F12`
+## Navigate to method ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>F12</kbd>
 ### Paste from stacktrace
 Another way of navigating to the location of the code causing our NullPointer exception, albeit less precise, is to first copy the method
 name from the stacktrace, in this case `findBall`.

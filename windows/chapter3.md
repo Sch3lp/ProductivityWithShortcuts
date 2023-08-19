@@ -1,11 +1,11 @@
 # Chapter 3 - Selection
 [_Back to outline_](outline.md)
-## Move + Select ![Windows](icons/glyph-windows-32.png)`ctrl+shift+arrows`
+## Move + Select ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>arrows</kbd>
 Open `Chapter3.java`, then move your cursor to the beginning of the line containing `"jumps over"`, hold
 down ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd>, <kbd>shift</kbd> and press the right arrow key <kbd>&#8594;</kbd> to select that sentence.
 Now cut and paste it behind the first line.
 
-## Expand Selection ![Windows](icons/glyph-windows-20.png)`ctrl+w`
+## Expand Selection ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd>+<kbd>w</kbd>
 Press ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>n</kbd> and open `Fugly.java`.
 Move your cursor to line `23`, column `28` by pressing ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>g</kbd> and typing `23:28`.
 From that position press ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>w</kbd>, press this key combination again a few times, and see what happens.

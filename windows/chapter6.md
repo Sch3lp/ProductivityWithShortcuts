@@ -5,7 +5,7 @@ We are but human. That means we tend to mess up from time to time.
 Knowing how to quickly fix mistakes you make is a tremendous boon to your programming productivity.
 Luckily, our IDE can help us fixing some of the smaller mistakes we often make.
 
-## IntelliJ's Auto-correct ![Windows](icons/glyph-windows-32.png)`ctrl+shift+enter`
+## IntelliJ's Auto-correct ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>enter</kbd>
 
 Let’s open Chapter6.java (<kbd>ctrl</kbd> + <kbd>n</kbd>), a class with many mistakes (and (a hell of (a lot of)) brackets).
 
@@ -23,7 +23,7 @@ statements.
 
 Try pressing <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>enter</kbd> anyways and see what happens.
 
-## Autocomplete ![Windows](icons/glyph-windows-32.png)`ctrl+space` vs. ![Windows](icons/glyph-windows-32.png)`ctrl+shift+space`
+## Autocomplete ![Windows](icons/glyph-windows-32.png)`ctrl+space` vs. ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>space</kbd>
 
 ### Autocomplete basics
 Open `Transformers.java`, a class with a lot of action in it. To quickly navigate to the missing constructor argument, use <kbd>F2</kbd>.
@@ -59,7 +59,7 @@ with <kbd>Ctrl</kbd> + <kbd>Z</kbd> and retry the autocompletion using <kbd>Tab<
 
 Repeat the process with the other confirmation methods listed above.
 
-## _QuickFix_ (:bulb:) ![Windows](icons/glyph-windows-32.png)`alt+enter`
+## _QuickFix_ (:bulb:) ![Windows](icons/glyph-windows-32.png)<kbd>alt</kbd>+<kbd>enter</kbd>
 
 IntelliJ's QuickFix is a powerful tool that can save you a lot of time and effort.
 In fact, it is so powerful that it might as well be magic.
@@ -78,7 +78,7 @@ issue at hand. Use cases include, but are not limited to:
 
 QuickFix is so useful that it's probably the only IntelliJ shortcut you really need to remember, if you want to be lazy about it.
 
-## Creating _stuff_ ![Windows](icons/glyph-windows-32.png)`alt+insert`
+## Creating _stuff_ ![Windows](icons/glyph-windows-32.png)<kbd>alt</kbd>+<kbd>insert</kbd>
 The "Generate" action in IntelliJ is a powerful feature that allows you to quickly create code constructs such as constructors, methods, and
 getters/setters. It saves you a lot of time and effort by automatically generating boilerplate code for you, based on the parameters you provide.
 You can access the Generate action by pressing <kbd>Alt</kbd> + <kbd>Insert</kbd> in the editor window. This action is particularly useful when you
@@ -90,7 +90,7 @@ Try out these actions using the <kbd>alt</kbd> + <kbd>insert</kbd> shortcut:
 * Create a new class from the `1: Project` _Tool Window_.
 * Create a new constructor in that class from the editor.
 
-## Deleting _stuff_ ![Windows](icons/glyph-windows-32.png)`alt+delete`
+## Deleting _stuff_ ![Windows](icons/glyph-windows-32.png)<kbd>alt</kbd>+<kbd>delete</kbd>
 Programming is not only about creating new concepts and abstractions but also about cleaning up and getting rid of old or unnecessary code.
 Fortunately, IntelliJ makes deleting code just as easy as creating it.
 
@@ -112,7 +112,7 @@ Your turn! Use this shortcut to:
 > This is sometimes called the "nuke it" option, and it can be very handy when you want to get rid of a method that is used in multiple places.
 > However, be sure to use this option with caution, as it can have unintended consequences if you're not careful.
 
-## View JavaDoc ![Windows](icons/glyph-windows-32.png)`ctrl+q`
+## View JavaDoc ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>q</kbd>
 Open `Transformers.java`, and move your cursor to `Autobot`.
 
 Press <kbd>Ctrl</kbd> + <kbd>Q</kbd> to view the JavaDoc for the Autobot class. Press <kbd>Esc</kbd> to exit the window.
@@ -125,7 +125,7 @@ statement using autocompletion (either by typing <kbd>.</kbd> or by pressing <kb
 
 While still in the autocompletion suggestion box, navigate to the `.toString()` option and press <kbd>Ctrl</kbd> + <kbd>Q</kbd> to read the associated JavaDoc.
 
-## View parameters ![Windows](icons/glyph-windows-32.png)`ctrl+p`
+## View parameters ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>p</kbd>
 If you are ever in doubt on which parameters to provide to a method, press <kbd>ctrl</kbd> + <kbd>P</kbd>
 while your cursor is inside the brackets of a method invocation statement. IntelliJ will tell you what parameterization is needed, and even
 offer a list of alternative invocation options.

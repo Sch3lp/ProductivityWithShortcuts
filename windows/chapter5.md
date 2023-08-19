@@ -6,12 +6,12 @@ When one of these _embedded_ windows have focus, other shortcuts are available.
 
 In this section we'll discuss some of them.
 
-## Opening/Closing (Toggling) ![Windows](icons/glyph-windows-32.png)`alt+number` ![Windows](icons/glyph-windows-32.png)`ctrl+F4`
+## Opening/Closing (Toggling) ![Windows](icons/glyph-windows-32.png)<kbd>alt</kbd>+<kbd>number</kbd> ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>F4</kbd>
 All of these windows are accessible by holding down ![Windows](icons/glyph-windows-20.png)<kbd>alt</kbd> and pressing the associating number.
 e.g. If you want to open or close the `1: Project` window, you press ![Windows](icons/glyph-windows-20.png)<kbd>alt</kbd> + <kbd>1</kbd>.
 You can also minimize the current active tool window using ![Windows](icons/glyph-windows-20.png)<kbd>shift</kbd> + <kbd>escape</kbd>.
 
-## Switching tabs ![Windows](icons/glyph-windows-32.png)`alt+left,right`
+## Switching tabs ![Windows](icons/glyph-windows-32.png)<kbd>alt</kbd>+<kbd>left</kbd>/<kbd>right</kbd>
 Some of these windows have multiple tabs in them, i.e. the `6: TODO` window.
 So let's open that window, using ![Windows](icons/glyph-windows-20.png)<kbd>alt</kbd> + <kbd>6</kbd>.  
 
@@ -20,7 +20,7 @@ You can switch between these tabs by pressing ![Windows](icons/glyph-windows-20.
 
 Give it a try!
 
-## Navigation from Embedded Windows ![Windows](icons/glyph-windows-32.png)`ctrl+enter` vs. ![Windows](icons/glyph-windows-32.png)`F4`
+## Navigation from Embedded Windows ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>enter</kbd> vs. ![Windows](icons/glyph-windows-32.png)<kbd>F4</kbd>
 Some Tool Windows will display results, like `3: Find` and `8: Hierarchy`, which you can use to navigate to directly.
 
 There's two ways of doing this:
@@ -41,7 +41,7 @@ pressing ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>enter</kbd
 
 Now we can change the implementation.
 
-## Why resizing is for dummies ![Windows](icons/glyph-windows-32.png)`ctrl+shift+F12`
+## Why resizing is for dummies ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>F12</kbd>
 Stop resizing your _Tool Windows_, use them when you need them (see _Opening/Closing (Toggling)_).
 
 If you don't need your _Tool Window_, you'll want to focus back on your editor window. You can do this from anywhere (meaning, from any
