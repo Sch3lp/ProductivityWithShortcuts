@@ -9,7 +9,7 @@ We recommend that you follow along with each exercise in this section to reinfor
 Whether you are a seasoned developer or just starting with IntelliJ IDEA, this tutorial series will help you become more proficient and productive.
 So let's get to it!
 
-## ![Mac](./icons/glyph-apple-32.png)&#8984;+c, &#8984;+v
+## ![Mac](./icons/glyph-apple-32.png) <kbd>&#8984;</kbd> + <kbd>c</kbd>, <kbd>&#8984;</kbd> + <kbd>v</kbd>
 To copy text on a Mac, select the text you want to copy using your mouse or keyboard, then press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>C</kbd>. To paste the
 copied text, move your cursor to the desired location and press ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>V</kbd>.
 
@@ -21,7 +21,7 @@ created constructor, and initialize the number field to `0`.
 ## Keep your hands on your keyboard
 Do the same exercise, but **ONLY** use your keyboard to select text.
 
-## How to look up any actions' shortcut ![Mac](./icons/glyph-apple-32.png) &#8984;+shift+a, double shift
+## How to look up any actions' shortcut ![Mac](./icons/glyph-apple-32.png) <kbd>&#8984;</kbd>+<kbd>shift</kbd>+<kbd>a</kbd>, <kbd>double shift</kbd>
 Repeat the previous exercise, but instead of using ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>C</kbd> / <kbd>&#8984;</kbd> + 
 <kbd>V</kbd>, use ![Mac](./icons/glyph-apple-20.png) <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>a</kbd> to open the "Find Action" dialog. Type in the name of the action you want to perform, and IntelliJ IDEA will show you the shortcut associated with that action. Alternatively, you can double-tab the <kbd>shift</kbd> key to open the quick action menu and search for the 
 action you want to perform. Use this method to look up the `copy` and `paste` actions, so you get a feel for using the dialog.
@@ -35,7 +35,7 @@ expand the menu itself, then press <kbd>enter</kbd> to select _My Productivity_.
 **bonus:** Try opening the Productivity Guide using ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>a</kbd>, then type in "Productivity Guide" in the
 search bar.
 
-## Indenting, formatting with ![Mac](./icons/glyph-apple-32.png)`tab`, ![Mac](./icons/glyph-apple-32.png)&#8963; + &#8997; + l
+## Indenting, formatting with ![Mac](./icons/glyph-apple-32.png)`tab`, ![Mac](./icons/glyph-apple-32.png)<kbd>&#8963;</kbd> +<kbd> &#8997;</kbd> + <kbd>l</kbd>
 Open `Fugly.java`, use selection and indent the test builder patterns properly.
 For this exercise, you can use <kbd>shift</kbd> and your arrow keys to select lines.
 Use <kbd>&#8677;</kbd> to indent them manually, or use ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963;</kbd> + <kbd>&#8997;</kbd> + <kbd>l</kbd> 
@@ -46,12 +46,12 @@ Hint: When manually indenting, first use ![Mac](./icons/glyph-apple-20.png)<kbd>
 side, then <kbd>&#8677;</kbd> the entire selection into its first indentation, decrease your selection and <kbd>&#8677;</kbd> that into its second
 indentation. Rinse and repeat.
 
-## Auto-indent with ![Mac](./icons/glyph-apple-32.png) &#8963; + &#8997; + l
+## Auto-indent with ![Mac](./icons/glyph-apple-32.png) <kbd>&#8963;</kbd> + <kbd>&#8997;</kbd> + <kbd>l</kbd>
 You can use this combination on specific lines, as well on entire files.
 Open FuglyToo.java, select a couple of lines starting with the `.withFace(face()` line and press <kbd>&#8963;</kbd> + <kbd>&#8997;</kbd> + <kbd>l</kbd>.
 Now empty your selection (select nothing), and press <kbd>&#8963;</kbd> + <kbd>&#8997;</kbd> + <kbd>l</kbd> again.
 
-## Undo, Redo ![Windows](./icons/glyph-apple-32.png)ctrl+z
+## Undo, Redo ![Windows](./icons/glyph-apple-32.png) <kbd>ctrl</kbd> + <kbd>z</kbd>
 
 The default `undo` and `redo` keyboard shortcuts on MacOS work the same over most applications. The weird behavior described in the windows section is
 not relevant for Mac users. Use ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>z</kbd> to undo, and <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>z</kbd> to redo.
