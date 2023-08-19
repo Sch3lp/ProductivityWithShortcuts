@@ -3,7 +3,9 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Code with exercises to learn shortcuts and their associated thinking patterns
+[http://sch3lp.github.io/ProductivityWithShortcuts/](http://sch3lp.github.io/ProductivityWithShortcuts/)
+
+Code with exercises to learn shortcuts and their associated thinking patterns.
 
 ## What you'll learn
 In this tutorial series, you will learn:
