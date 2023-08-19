@@ -1,12 +1,12 @@
 # Chapter 2 - Navigation
 [_Back to outline_](outline.md)
 
-## Word-skipping ![Windows](icons/glyph-windows-32.png)`ctrl+arrows`
+## Word-skipping ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>arrows</kbd>
 
 Open `Chapter2.java`, and place your cursor in front of the word _"The"_ of the popular phrase, and tap ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>&#8594</kbd> 8 times.
 You should now have your cursor at the beginning of the word _"camel"_.
 
-## Begin/End of Line ![Windows](icons/glyph-windows-32.png)`home`, `end`
+## Begin/End of Line ![Windows](icons/glyph-windows-32.png)<kbd>home</kbd>, <kbd>end</kbd>
 Still in `Chapter2.java`, place your cursor at the start of the popular phrase, and press <kbd>end</kbd>.
 Press <kbd>home</kbd> once, look at your cursors position, then press <kbd>home</kbd> again and see what happens. Press <kbd>home</kbd> one more
 time.
@@ -16,7 +16,7 @@ home</kbd>.
 
 Enjoy annoying anyone that might be watching over your shoulder.
 
-## Begin/End of File ![Windows](icons/glyph-windows-32.png)`ctrl+home`, `ctrl+end`
+## Begin/End of File ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>home</kbd>, <kbd>ctrl</kbd>+<kbd>end</kbd>
 Try out ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>home</kbd> and ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>end</kbd> in `Chapter2.java`.  
 Alternatively, you can accomplish the same using ![Windows](icons/glyph-windows-20.png)<kbd>PgUp</kbd> and <kbd>PgDn</kbd>.
 
@@ -40,15 +40,19 @@ They all appear when you type CamelHumps and IntelliJ remembers your last action
 > Other tools, like SublimeText, have different key combinations to skip the entire word (<kbd>ctrl</kbd> + <kbd>&#8594;</kbd>), or skip based on
 > CamelCasing (<kbd>alt</kbd> + <kbd>&#8594;</kbd>).
 
-## Jumping methods ![Windows](icons/glyph-windows-32.png)`alt+up,down`
+## Jumping methods ![Windows](icons/glyph-windows-32.png)<kbd>alt</kbd>+<kbd>up</kbd>/<kbd>down</kbd>
 
 In `Chapter2.java`, place your cursor at the `theQuickBrownFoxJumpedOverTheLazyCamel` method.  
 Press ![Windows](icons/glyph-windows-20.png)<kbd>alt</kbd> + <kbd>&#8595;</kbd> a few times and see what happens.  
 Now use ![Windows](icons/glyph-windows-20.png)<kbd>alt</kbd> + <kbd>&#8593;</kbd> to go back the way you came.
 
-## Jump to "error" ![Windows](icons/glyph-windows-32.png)`F2`
+## Jump to "error" ![Windows](icons/glyph-windows-32.png)<kbd>F2</kbd>
 Move to the top of the file with ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>Home</kbd> and from there press ![Windows](icons/glyph-windows-20.png)<kbd>F2</kbd>. 
 This should navigate your cursor to the class named `Chapter2` because IntelliJ marks it as being _unused_.
+
+> **TIP:**  
+> If you want to see which error your IDE has detected, check out the "Problems" pane.
+> You can open this message view by using the combination ![Windows](icons/glyph-windows-20.png)<kbd>Alt</kbd> + <kbd>6</kbd>
 
 If you keep pressing ![Windows](icons/glyph-windows-20.png)<kbd>F2</kbd> it should keep cycling your cursor over the _unused_ warnings. In between the methods `jump()` and `camel()`,
 paste the following:
