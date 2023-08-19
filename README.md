@@ -21,7 +21,7 @@ Learning them this way will help you identify situations where the use of a hotk
 By doing! The only way to get shortcuts in your fingers is by using them. All. The. Time.
 
 This repo provides a structured aproach to learn with exercises that will help you move forward.
-The default version discusses shortcut combinations from the [windows keymap](./windows/outline.md). 
+One version discusses shortcut combinations from the [windows keymap](./windows/outline.md). 
 If you are using a Mac, there is a version available for you in [./macOs](./macOS/outline.md).
 
 # How to use this repository
@@ -30,7 +30,7 @@ If you are using a Mac, there is a version available for you in [./macOs](./macO
 The titles in the outline below are links to the different chapters.
 
 Each chapter contains a thorough explanation and exercises.
-Alhough the progression in these chapters might seem to be naturally increasing in difficulty, you don't need to think of them as thresholds.
+Although the progression in these chapters might seem to be naturally increasing in difficulty, you don't need to think of them as thresholds.
 The only reason there are chapters is to help your brain make paths even better by trying to categorize certain types of shortcuts so you'll think of them sooner in real life.
 
 ## Good Luck, Have Fun!
