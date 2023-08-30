@@ -9,7 +9,7 @@ We recommend that you follow along with each exercise in this section to reinfor
 Whether you are a seasoned developer or just starting with IntelliJ IDEA, this tutorial series will help you become more proficient and productive.
 So let's get to it!
 
-## ![Windows](icons/glyph-windows-32.png)ctrl+c, ctrl+v
+## ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>c</kbd>, <kbd>ctrl</kbd>+<kbd>v</kbd>
 To copy text, select the text you want to copy using your mouse or keyboard, then press ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>C</kbd>. To paste the copied text,
 move your cursor to the desired location and press ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>V</kbd>.
 
@@ -35,7 +35,7 @@ First press ![Windows](icons/glyph-windows-20.png)<kbd>alt</kbd> + <kbd>h</kbd> 
 **bonus:** Try opening the Productivity Guide using ![Windows](icons/glyph-windows-20.png)<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd>, then type in "Productivity Guide" in the
 search bar.
 
-## Indenting, formatting with ![Windows](icons/glyph-windows-20.png)`tab`, `shift+tab`
+## Indenting, formatting with ![Windows](icons/glyph-windows-20.png)<kbd>tab</kbd>, <kbd>shift</kbd>+<kbd>tab</kbd>
 Open `Fugly.java`, use selection and indent the test builder patterns properly.
 For this exercise, you can use <kbd>shift</kbd> and your arrow keys to select lines.
 Use <kbd>Tab</kbd> to indent them manually, or use ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>l</kbd> to automatically format the selected lines.
@@ -44,12 +44,12 @@ Hint: When manually indenting, first use ![Windows](icons/glyph-windows-20.png)<
 side, then <kbd>Tab</kbd> the entire selection into its first indentation, decrease your selection and <kbd>Tab</kbd>  that into its second
 indentation. Rinse and repeat.
 
-## Auto-indent with ![Windows](icons/glyph-windows-20.png)`ctrl+alt+l`
+## Auto-indent with ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>l</kbd>
 You can use this combination on specific lines, as well on entire files.
 Open FuglyToo.java, select a couple of lines starting with the `.withFace(face()` line and press ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>l</kbd>.
 Now empty your selection (select nothing), and press ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>l</kbd> again.
 
-## Undo, Redo ![Windows](icons/glyph-windows-20.png)`ctrl+z` and ![Windows](icons/glyph-windows-20.png)`ctrl+shift+z`
+## Undo, Redo ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd>+<kbd>z</kbd> and ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>z</kbd>
 
 In most editors, `Redo` is mapped to ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>y</kbd>. Not so in IntelliJ.  
 This can lead to hilarious (or super annoying) situations where you'll lose your _undo buffer_.
@@ -77,7 +77,7 @@ As most people will have the reflex to press ![Windows](icons/glyph-windows-20.p
 Use ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>y</kbd>, then try ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>z</kbd> to attempt and redo the revert you wish to reapply.
 
 Try ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>z</kbd> and see what that does. Try ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>z</kbd> again now.
-
+`
 Keep this strange behavior in mind when you work in IntelliJ, or in another editor that doesn't have ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>y</kbd> for _Redo_ :)
 
 ---

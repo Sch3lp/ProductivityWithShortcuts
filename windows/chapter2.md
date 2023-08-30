@@ -1,12 +1,12 @@
 # Chapter 2 - Navigation
 [_Back to outline_](outline.md)
 
-## Word-skipping ![Windows](icons/glyph-windows-32.png)`ctrl+arrows`
+## Word-skipping ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>arrows</kbd>
 
 Open `Chapter2.java`, and place your cursor in front of the word _"The"_ of the popular phrase, and tap ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>&#8594</kbd> 8 times.
 You should now have your cursor at the beginning of the word _"camel"_.
 
-## Begin/End of Line ![Windows](icons/glyph-windows-32.png)`home`, `end`
+## Begin/End of Line ![Windows](icons/glyph-windows-32.png)<kbd>home</kbd>, <kbd>end</kbd>
 Still in `Chapter2.java`, place your cursor at the start of the popular phrase, and press <kbd>end</kbd>.
 Press <kbd>home</kbd> once, look at your cursors position, then press <kbd>home</kbd> again and see what happens. Press <kbd>home</kbd> one more
 time.
@@ -16,7 +16,7 @@ home</kbd>.
 
 Enjoy annoying anyone that might be watching over your shoulder.
 
-## Begin/End of File ![Windows](icons/glyph-windows-32.png)`ctrl+home`, `ctrl+end`
+## Begin/End of File ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>home</kbd>, <kbd>ctrl</kbd>+<kbd>end</kbd>
 Try out ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>home</kbd> and ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>end</kbd> in `Chapter2.java`.  
 Alternatively, you can accomplish the same using ![Windows](icons/glyph-windows-20.png)<kbd>PgUp</kbd> and <kbd>PgDn</kbd>.
 
@@ -40,15 +40,19 @@ They all appear when you type CamelHumps and IntelliJ remembers your last action
 > Other tools, like SublimeText, have different key combinations to skip the entire word (<kbd>ctrl</kbd> + <kbd>&#8594;</kbd>), or skip based on
 > CamelCasing (<kbd>alt</kbd> + <kbd>&#8594;</kbd>).
 
-## Jumping methods ![Windows](icons/glyph-windows-32.png)`alt+up,down`
+## Jumping methods ![Windows](icons/glyph-windows-32.png)<kbd>alt</kbd>+<kbd>up</kbd>/<kbd>down</kbd>
 
 In `Chapter2.java`, place your cursor at the `theQuickBrownFoxJumpedOverTheLazyCamel` method.  
 Press ![Windows](icons/glyph-windows-20.png)<kbd>alt</kbd> + <kbd>&#8595;</kbd> a few times and see what happens.  
 Now use ![Windows](icons/glyph-windows-20.png)<kbd>alt</kbd> + <kbd>&#8593;</kbd> to go back the way you came.
 
-## Jump to "error" ![Windows](icons/glyph-windows-32.png)`F2`
+## Jump to "error" ![Windows](icons/glyph-windows-32.png)<kbd>F2</kbd>
 Move to the top of the file with ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>Home</kbd> and from there press ![Windows](icons/glyph-windows-20.png)<kbd>F2</kbd>. 
 This should navigate your cursor to the class named `Chapter2` because IntelliJ marks it as being _unused_.
+
+> **TIP:**  
+> If you want to see which error your IDE has detected, check out the "Problems" pane.
+> You can open this message view by using the combination ![Windows](icons/glyph-windows-20.png)<kbd>Alt</kbd> + <kbd>6</kbd>
 
 If you keep pressing ![Windows](icons/glyph-windows-20.png)<kbd>F2</kbd> it should keep cycling your cursor over the _unused_ warnings. In between the methods `jump()` and `camel()`,
 paste the following:
@@ -65,8 +69,8 @@ Notice how the cursor now first jumps to the actual compilation error (_`privet`
 > [!NOTE]
 > Cycling only happens over all actual _errors_, and the _unused warnings_ are not cycled over anymore.
 
-## Jump into ![Windows](icons/glyph-windows-32.png)`ctrl(+alt)+b`
-__"Jump into"__, or __"drill down"__ as I like to call it, allows you to follow the path the code will execute at runtime.
+## Jump into ![Windows](icons/glyph-windows-32.png) <kbd>ctrl</kbd> (+<kbd>alt</kbd>) + <kbd>b</kbd>
+_"Jump into"__, or __"drill down"__ as I like to call it, allows you to follow the path the code will execute at runtime.
 It is a big timesaver when attempting to follow the logic of any given program.
 
 Right now, there's a typo in both the `EpicJumper.java` and `MehJumper.java` classes. Let's fix that.
@@ -80,7 +84,7 @@ actual method implementation but doesn't know which one, so download shareit wil
 
 You can now correct the typo in the method, and move on to the next exercise.
 
-## History and its importance ![Windows](icons/glyph-windows-32.png)`ctrl+alt+left,right`
+## History and its importance ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>left</kbd>/<kbd>right</kbd>
 In the previous exercise we drilled down into a method call and changed some things. But sometimes we want to go back in time (usually after
 messing something up). Let's repeat the previous exercise!
 If you are following this tutorial in one go, and are currently at the end-position of the previous topic, you can continue onwards from
@@ -97,13 +101,13 @@ Also try backtracking your backtrack by pressing ![Windows](icons/glyph-windows-
 > **NOTE:**  
 > every time you use **Navigation shortcuts** that bring you to new classes, IntelliJ will remember this in a Navigation History of sorts.
 
-## Jump to last edit position ![Windows](icons/glyph-windows-32.png)`ctrl+shift+backspace`
+## Jump to last edit position ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>backspace</kbd>
 From the end of previous exercise, make sure you're back in the `Chapter2.java` class and press ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>backspace</kbd>
 to return to where you were last editing.   
 
 Try pressing the hotkey again and see what happens.
 
-## Show in Project ![Windows](icons/glyph-windows-32.png)`alt+F1`
+## Show in Project ![Windows](icons/glyph-windows-32.png)<kbd>alt</kbd>+<kbd>F1</kbd>
 Open `MehJumper.java` by pressing ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>n</kbd>, then use ![Windows](icons/glyph-windows-20.png)<kbd>alt</kbd> + <kbd>F1</kbd> to open up the `Project` navigational
 sidebar with the `MehJumper.java` class selected.
 
@@ -130,7 +134,7 @@ enter</kbd> (or <kbd>F4</kbd> if you want to navigate to the code without furthe
 > move this navigational __Tool Window__ to the bottom bar (next to `3: Find`), because you'll usually want to optimize your screen's
 > horizontal space rather than its vertical space.
 
-### ![Windows](icons/glyph-windows-32.png)`ctrl+b`
+### ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>b</kbd>
 Navigate to the `return id;` line in the `Ball.java` class and put your cursor on `id`. Now press ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>b</kbd>
 This should navigate your code editor to the instantiation of the field itself.
 
@@ -139,7 +143,7 @@ __accessors__ of the field.
 
 Let's go with _`Yes`_.
 
-### Pop-up windows (but not the annoying kind) ![Windows](icons/glyph-windows-20.png) `ctrl + shift + i`
+### Pop-up windows (but not the annoying kind) ![Windows](icons/glyph-windows-20.png) <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>i</kbd>
 
 Sometimes when you are working on code, you want to quickly reference how a certain class, field or method is defined without opening a new
 workspace window.
@@ -153,7 +157,7 @@ Navigate to the `return id;` line in the `Ball.java` class and put your cursor o
 show you the relevant documentation for this parameter.
 As we have not written any documentation, this overlay window will be blank.
 
-## Jump to line ![Windows](icons/glyph-windows-32.png)`ctrl+g` (example with paste from stacktrace)
+## Jump to line ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>g</kbd> (example with paste from stacktrace)
 Here is a part of a very long stacktrace.
 ```bash
     java.lang.NullPointerException
@@ -193,7 +197,7 @@ Let's see where the NullPointer is occurring. Open `BallServiceImpl`, using ![Wi
 Now use ![Windows](icons/glyph-windows-20.png)<kbd>ctrl</kbd> + <kbd>g</kbd> and enter the desired line number (this is line nr. `18`), as the stacktrace above states the error
 occurs on this line: `at be.swsb.productivity.chapter2.mud.service.BallServiceImpl.findBall(BallServiceImpl.java:18)`
 
-## Navigate to method ![Windows](icons/glyph-windows-32.png)`ctrl+F12`
+## Navigate to method ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>F12</kbd>
 ### Paste from stacktrace
 Another way of navigating to the location of the code causing our NullPointer exception, albeit less precise, is to first copy the method
 name from the stacktrace, in this case `findBall`.

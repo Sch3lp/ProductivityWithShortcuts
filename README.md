@@ -21,7 +21,7 @@ Learning them this way will help you identify situations where the use of a hotk
 By doing! The only way to get shortcuts in your fingers is by using them. All. The. Time.
 
 This repo provides a structured aproach to learn with exercises that will help you move forward.
-The default version discusses shortcut combinations from the [windows keymap](./windows/outline.md). 
+One version discusses shortcut combinations from the [windows keymap](./windows/outline.md). 
 If you are using a Mac, there is a version available for you in [./macOs](./macOS/outline.md).
 
 # How to use this repository
@@ -29,9 +29,8 @@ If you are using a Mac, there is a version available for you in [./macOs](./macO
 
 The titles in the outline below are links to the different chapters.
 
-Each chapter contains a thorough explanation and exercises. 
-[Windows hotkey tutorial](./windows/outline.md)
-Eventhough the progression in these chapters might seem to be naturally increasing in difficulty, you don't need to think of them as thresholds.
+Each chapter contains a thorough explanation and exercises.
+Although the progression in these chapters might seem to be naturally increasing in difficulty, you don't need to think of them as thresholds.
 The only reason there are chapters is to help your brain make paths even better by trying to categorize certain types of shortcuts so you'll think of them sooner in real life.
 
 ## Good Luck, Have Fun!
@@ -56,7 +55,9 @@ The example code is published under the [MIT License](LICENSE.md).
 
 The mac and windows logo icons used are under the [Creative Common License (Attr. 3 Unported)](http://creativecommons.org/licenses/by/3.0/), and are completely attributed to the artist [Bogdan Rosu](https://www.iconfinder.com/bogdanrosu).
 
-# Contributors
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -81,15 +82,5 @@ The mac and windows logo icons used are under the [Creative Common License (Attr
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

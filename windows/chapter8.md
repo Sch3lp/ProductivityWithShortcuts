@@ -8,7 +8,7 @@ features. Let's take a moment to compose ourselves, make sure we're wide awake f
 editing.
 
 
-## Toggle Column Mode ![Windows](icons/glyph-windows-32.png)`alt+shift+insert`
+## Toggle Column Mode ![Windows](icons/glyph-windows-32.png)<kbd>alt</kbd>+<kbd>shift</kbd>+<kbd>insert</kbd>
 
 ### Part 1
 
@@ -59,7 +59,7 @@ pressing <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>insert</kbd>.
 This is a great feature when all the lines you want to edit are directly underneath each other. However, that won't always be the case.
 Let's take a look at how we can cope with those situations.
 
-## ![Windows](icons/glyph-windows-32.png)`alt+j`, ![Windows](icons/glyph-windows-32.png)`alt+shift+j` and ![Windows](icons/glyph-windows-32.png)`ctrl+alt+shift+j`
+## ![Windows](icons/glyph-windows-32.png)<kbd>alt</kbd>+<kbd>j</kbd>, ![Windows](icons/glyph-windows-32.png)<kbd>alt</kbd>+<kbd>shift</kbd>+<kbd>j</kbd> and ![Windows](icons/glyph-windows-32.png)<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>shift</kbd>+<kbd>j</kbd>
 
 
 In `Chapter8` there are two methods that need some fixing. They both tried to use a `StringBuilder` but seemed to have forgotten to use
@@ -78,7 +78,7 @@ First, try and see what would be included by pressing <kbd>ctrl</kbd> + <kbd>F3<
 > - `."` however is a near perfect fit.
 
 So let's select the first `."` at `21:17` and press <kbd>alt</kbd> + <kbd>j</kbd> once and see what happens.
-Now repeat <kbd>alt</kbd> + <kbd>j</kbd> until you've selected all of the occurrences.
+Now repeat <kbd>alt</kbd> + <kbd>j</kbd> until you've selected all the occurrences.
 You'll notice that the last occurrence is working code, and we don't want to change that last one. So
 press <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> to undo that last `add to cursor` selection.
 

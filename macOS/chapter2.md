@@ -53,8 +53,11 @@ Now use ![Mac](./icons/glyph-apple-20.png)<kbd>&#8963;</kbd> + <kbd>Shift</kbd> 
 
 Move to the top of the file with ![Mac](./icons/glyph-apple-20.png)<kbd>Fn</kbd> + <kbd>&#8984;</kbd> + <kbd>&#8592;</kbd> and from there press 
 <kbd>F2</kbd>. This should navigate
-your
-cursor to the class named `Chapter2` because IntelliJ marks it as being _unused_.
+your cursor to the class named `Chapter2` because IntelliJ marks it as being _unused_.
+
+> **TIP:**  
+> If you want to see which error your IDE has detected, check out the "Problems" pane.
+> You can open this message view by using the combination ![Mac](./icons/glyph-apple-20.png)<kbd>&#8984;</kbd> + <kbd>6</kbd>
 
 If you keep pressing ![Mac](./icons/glyph-apple-20.png)<kbd>F2</kbd> it should keep cycling your cursor over the _unused_ warnings. In between the methods `jump()` and `camel()`,
 paste the following:
